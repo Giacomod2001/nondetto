@@ -1,0 +1,381 @@
+id,data,canale,sku,prodotto,categoria,testo,tema_reale
+TCK-2000,2026-07-12,chat,SKU-109,Palline vaginali Kegel Set,palline,"vorrei sostituire il Palline vaginali Kegel Set con un modello diverso, ma non trovo da nessuna parte come si fa il cambio.",reso_rimborso
+TCK-2001,2026-06-06,email,SKU-107,Kit plug progressivo,anale,"Ciao, ho scritto su Instagram e mi hanno detto di mandare una mail, ho mandato la mail e nessuno risponde. Potete aiutarmi?",assistenza
+TCK-2002,2026-08-17,email,SKU-107,Kit plug progressivo,anale,"Buonasera, non capisco a cosa servano le diverse modalità del Kit plug progressivo, sul libretto non è spiegato. Grazie in anticipo.",uso_prodotto
+TCK-2003,2026-04-19,whatsapp,SKU-112,Body in pizzo Luce,lingerie,"Buonasera, pacco bloccato in transito da sei giorni, nessuno mi sa dire nulla. Potete aiutarmi?",logistica_consegna
+TCK-2004,2026-04-17,email,SKU-102,Vibratore Rabbit Nova,vibratori,"Buongiorno, il Vibratore Rabbit Nova è arrivato con un difetto sul silicone, c'era proprio un taglio. Grazie in anticipo.",difetto_prodotto
+TCK-2005,2026-04-04,whatsapp,SKU-109,Palline vaginali Kegel Set,palline,"Ciao, ordine diviso in due spedizioni senza avvisarmi, ho ricevuto solo metà di quello che ho pagato. Fatemi sapere per favore.",logistica_consegna
+TCK-2006,2026-05-15,email,SKU-104,Vibratore per coppie Duo App,coppie-app,"Ciao, il Vibratore per coppie Duo App ha un blocco tasti? Mi si accende da solo in borsa. Potete aiutarmi?",uso_prodotto
+TCK-2007,2026-09-06,chat,SKU-106,Masturbatore Echo,per-lui,rimborso arrivato parziale senza nessuna spiegazione sulla differenza.,reso_rimborso
+TCK-2008,2026-04-15,whatsapp,SKU-102,Vibratore Rabbit Nova,vibratori,"chiedo da tre settimane lo stato del rimborso, ricevo solo risposte generiche.",reso_rimborso
+TCK-2009,2026-06-25,chat,SKU-104,Vibratore per coppie Duo App,coppie-app,il cavo di ricarica in dotazione ha smesso di funzionare quasi subito. Fatemi sapere per favore.,difetto_batteria
+TCK-2010,2026-06-21,chat,SKU-109,Palline vaginali Kegel Set,palline,"risposte vaghe, copiate e incollate, che non risolvono il problema.",assistenza
+TCK-2011,2026-04-06,chat,SKU-104,Vibratore per coppie Duo App,coppie-app,"il Vibratore per coppie Duo App ha un odore di plastica molto forte appena aperto, non me lo aspettavo da un silicone medicale. Resto in attesa.",difetto_prodotto
+TCK-2012,2026-06-17,email,SKU-106,Masturbatore Echo,per-lui,"Ciao, il Masturbatore Echo ha smesso di vibrare dopo pochi utilizzi. Potete aiutarmi?",difetto_prodotto
+TCK-2013,2026-06-23,chat,SKU-104,Vibratore per coppie Duo App,coppie-app,"Buonasera, qual è il modo corretto di pulire il Vibratore per coppie Duo App? Posso usare acqua e sapone o serve un detergente apposta?",uso_prodotto
+TCK-2014,2026-05-31,email,SKU-105,Anello fallico Orbit,per-lui,"Buonasera, non capisco a cosa servano le diverse modalità del Anello fallico Orbit, sul libretto non è spiegato. Grazie mille.",uso_prodotto
+TCK-2015,2026-08-15,email,SKU-109,Palline vaginali Kegel Set,palline,"Buongiorno, il corriere ha segnato consegnato ma non ho ricevuto nulla. Ho scritto e sto ancora aspettando. Resto in attesa.",logistica_consegna
+TCK-2016,2026-06-20,instagram,SKU-110,Lubrificante base acqua Fresh 100ml,lubrificanti,"tracking mai aggiornato, non ho idea di dove sia il mio ordine. Un po' di trasparenza in più non guasterebbe.",logistica_consegna
+TCK-2017,2026-07-18,email,SKU-110,Lubrificante base acqua Fresh 100ml,lubrificanti,"Buongiorno, il Lubrificante base acqua Fresh 100ml si può usare anche in gravidanza? Resto in attesa.",scelta_preacquisto
+TCK-2018,2026-07-23,email,SKU-105,Anello fallico Orbit,per-lui,"Ciao, consegna prevista in 48 ore, ne sono passate 96. Il prodotto mi serviva per un regalo. Fatemi sapere per favore.",logistica_consegna
+TCK-2019,2026-08-21,chat,SKU-104,Vibratore per coppie Duo App,coppie-app,"procedura di reso poco chiara, sul sito non si capisce cosa si può restituire e cosa no.",reso_rimborso
+TCK-2020,2026-06-21,whatsapp,SKU-107,Kit plug progressivo,anale,"Buongiorno, è il mio primo acquisto di questo tipo e non so proprio da dove iniziare. Potete consigliarmi?",scelta_preacquisto
+TCK-2021,2026-06-24,instagram,SKU-105,Anello fallico Orbit,per-lui,"Salve, seconda volta che un vostro ordine arriva in ritardo. La prima l'ho lasciata correre. Potete aiutarmi?",logistica_consegna
+TCK-2022,2026-04-27,chat,SKU-104,Vibratore per coppie Duo App,coppie-app,"Ciao, dove si conserva il Vibratore per coppie Duo App? Va bene lasciarlo nella custodia insieme ad altri? Grazie mille.",uso_prodotto
+TCK-2023,2026-06-17,chat,SKU-112,Body in pizzo Luce,lingerie,"sto scegliendo tra il Body in pizzo Luce e un altro modello, non capisco la differenza tra i due. Potete aiutarmi?",scelta_preacquisto
+TCK-2024,2026-04-24,whatsapp,SKU-102,Vibratore Rabbit Nova,vibratori,"nella scheda del Vibratore Rabbit Nova non sono indicate le dimensioni reali, dal vivo è molto più grande. Fatemi sapere per favore.",informazione_scheda
+TCK-2025,2026-05-24,email,SKU-107,Kit plug progressivo,anale,"Salve, rimborso arrivato parziale senza nessuna spiegazione sulla differenza. Grazie mille.",reso_rimborso
+TCK-2026,2026-04-04,email,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,"Salve, il Succhia-clitoride Aurora risulta consegnato al vicino ma nessuno mi ha avvisato, l'ho scoperto per caso.",logistica_consegna
+TCK-2027,2026-05-04,instagram,SKU-103,Wand massaggiante Vela,wand,"Ciao, il Wand massaggiante Vela ha un blocco tasti? Mi si accende da solo in borsa. Potete aiutarmi?",uso_prodotto
+TCK-2028,2026-08-27,instagram,SKU-104,Vibratore per coppie Duo App,coppie-app,l'app si disconnette in continuazione quando lo controllo a distanza. È normale? Grazie mille.,uso_prodotto
+TCK-2029,2026-04-01,chat,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,"Salve, come faccio a capire se il Succhia-clitoride Aurora è completamente carico? La spia lampeggia e basta.",uso_prodotto
+TCK-2030,2026-08-18,instagram,SKU-110,Lubrificante base acqua Fresh 100ml,lubrificanti,"non capisco a cosa servano le diverse modalità del Lubrificante base acqua Fresh 100ml, sul libretto non è spiegato. Grazie in anticipo.",uso_prodotto
+TCK-2031,2026-05-13,whatsapp,SKU-104,Vibratore per coppie Duo App,coppie-app,"Buongiorno, il Vibratore per coppie Duo App si può usare con un lubrificante al silicone o rovina il materiale? Resto in attesa.",uso_prodotto
+TCK-2032,2026-07-04,chat,SKU-112,Body in pizzo Luce,lingerie,che taglia prendo del Body in pizzo Luce? Le misure sulla scheda non corrispondono a quelle italiane.,scelta_preacquisto
+TCK-2033,2026-04-01,email,SKU-107,Kit plug progressivo,anale,"Buongiorno, il materiale del Kit plug progressivo è compatibile con chi ha la pelle sensibile?",scelta_preacquisto
+TCK-2034,2026-05-07,email,SKU-107,Kit plug progressivo,anale,"Ciao, non mi arrivano più le mail con gli ordini, controllato anche lo spam.",promo_ordini
+TCK-2035,2026-06-19,instagram,SKU-111,Kit bondage Soft Start,bdsm,si può usare il Kit bondage Soft Start sotto la doccia oppure no? Fatemi sapere per favore.,uso_prodotto
+TCK-2036,2026-05-29,instagram,SKU-104,Vibratore per coppie Duo App,coppie-app,"Buonasera, il Vibratore per coppie Duo App si può usare con un lubrificante al silicone o rovina il materiale? Grazie in anticipo.",uso_prodotto
+TCK-2037,2026-05-01,email,SKU-107,Kit plug progressivo,anale,"Ciao, le istruzioni del Kit plug progressivo sono solo in inglese e in cinese, in italiano niente. Grazie in anticipo.",uso_prodotto
+TCK-2038,2026-07-31,email,SKU-104,Vibratore per coppie Duo App,coppie-app,"uno dei pulsanti del Vibratore per coppie Duo App non risponde, devo premerlo cinque volte. Fatemi sapere per favore.",difetto_prodotto
+TCK-2039,2026-08-07,email,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,"dopo tre settimane il Succhia-clitoride Aurora non si accende più, la base magnetica non aggancia bene. Grazie mille.",difetto_batteria
+TCK-2040,2026-08-07,chat,SKU-102,Vibratore Rabbit Nova,vibratori,"Buongiorno, il codice sconto non si applica al carrello, ho provato con tre browser diversi. Resto in attesa.",promo_ordini
+TCK-2041,2026-05-09,instagram,SKU-104,Vibratore per coppie Duo App,coppie-app,"Salve, reso rifiutato perché la confezione era aperta, ma come faccio a capire se il prodotto va bene senza aprirlo? Resto in attesa.",reso_rimborso
+TCK-2042,2026-08-02,email,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,"Buongiorno, il Succhia-clitoride Aurora si spegne da solo a metà utilizzo anche se la spia dice che è carico. Grazie in anticipo.",difetto_batteria
+TCK-2043,2026-06-01,email,SKU-112,Body in pizzo Luce,lingerie,"Buonasera, reso rifiutato perché la confezione era aperta, ma come faccio a capire se il prodotto va bene senza aprirlo? Potete aiutarmi?",reso_rimborso
+TCK-2044,2026-07-09,instagram,SKU-104,Vibratore per coppie Duo App,coppie-app,"Salve, non riesco a collegare il Vibratore per coppie Duo App all'app, il bluetooth non lo trova.",uso_prodotto
+TCK-2045,2026-05-05,whatsapp,SKU-103,Wand massaggiante Vela,wand,"Salve, il cavo di ricarica in dotazione ha smesso di funzionare quasi subito. Resto in attesa.",difetto_batteria
+TCK-2046,2026-09-14,email,SKU-107,Kit plug progressivo,anale,"Ciao, ho ricevuto un prodotto diverso da quello ordinato e mi tocca pagare io la spedizione del reso. Potete aiutarmi?",reso_rimborso
+TCK-2047,2026-08-03,instagram,SKU-102,Vibratore Rabbit Nova,vibratori,"sono indecisa tra due prodotti della stessa categoria, esiste una guida che li confronti? Resto in attesa.",scelta_preacquisto
+TCK-2048,2026-09-13,chat,SKU-102,Vibratore Rabbit Nova,vibratori,"Ciao, ho pagato la spedizione express e è arrivato con gli stessi tempi di quella standard. Grazie mille.",logistica_consegna
+TCK-2049,2026-05-11,chat,SKU-105,Anello fallico Orbit,per-lui,"Buongiorno, il Anello fallico Orbit ha un blocco tasti? Mi si accende da solo in borsa.",uso_prodotto
+TCK-2050,2026-08-02,instagram,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,come faccio a capire se il Succhia-clitoride Aurora è completamente carico? La spia lampeggia e basta.,uso_prodotto
+TCK-2051,2026-08-18,instagram,SKU-104,Vibratore per coppie Duo App,coppie-app,"procedura di reso poco chiara, sul sito non si capisce cosa si può restituire e cosa no.",reso_rimborso
+TCK-2052,2026-09-14,whatsapp,SKU-103,Wand massaggiante Vela,wand,"dopo tre settimane il Wand massaggiante Vela non si accende più, la base magnetica non aggancia bene. Grazie mille.",difetto_batteria
+TCK-2053,2026-08-09,email,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,"Ciao, vorrei fare un regalo alla mia partner ma ho paura di sbagliare, come mi oriento?",scelta_preacquisto
+TCK-2054,2026-07-08,email,SKU-104,Vibratore per coppie Duo App,coppie-app,"Buongiorno, il Vibratore per coppie Duo App funziona anche senza app o serve per forza lo smartphone? Fatemi sapere per favore.",scelta_preacquisto
+TCK-2055,2026-06-14,email,SKU-110,Lubrificante base acqua Fresh 100ml,lubrificanti,il corriere ha segnato consegnato ma non ho ricevuto nulla. Ho scritto e sto ancora aspettando. Grazie in anticipo.,logistica_consegna
+TCK-2056,2026-04-10,email,SKU-107,Kit plug progressivo,anale,"Buonasera, spedizione in ritardo di oltre una settimana rispetto a quanto indicato in fase di acquisto. Resto in attesa.",logistica_consegna
+TCK-2057,2026-04-06,email,SKU-106,Masturbatore Echo,per-lui,"Buonasera, il Masturbatore Echo è arrivato con un difetto sul silicone, c'era proprio un taglio. Resto in attesa.",difetto_prodotto
+TCK-2058,2026-09-21,email,SKU-106,Masturbatore Echo,per-lui,"Buonasera, procedura di reso poco chiara, sul sito non si capisce cosa si può restituire e cosa no. Fatemi sapere per favore.",reso_rimborso
+TCK-2059,2026-08-14,chat,SKU-102,Vibratore Rabbit Nova,vibratori,"sto scegliendo tra il Vibratore Rabbit Nova e un altro modello, non capisco la differenza tra i due.",scelta_preacquisto
+TCK-2060,2026-08-12,chat,SKU-102,Vibratore Rabbit Nova,vibratori,come faccio a capire se il Vibratore Rabbit Nova è completamente carico? La spia lampeggia e basta. Grazie in anticipo.,uso_prodotto
+TCK-2061,2026-08-01,instagram,SKU-109,Palline vaginali Kegel Set,palline,"Salve, il Palline vaginali Kegel Set è adatto a chi è alle prime armi o è troppo intenso?",scelta_preacquisto
+TCK-2062,2026-09-19,chat,SKU-102,Vibratore Rabbit Nova,vibratori,"Buongiorno, tracking mai aggiornato, non ho idea di dove sia il mio ordine. Un po' di trasparenza in più non guasterebbe. Grazie in anticipo.",logistica_consegna
+TCK-2063,2026-08-31,instagram,SKU-104,Vibratore per coppie Duo App,coppie-app,"Salve, il Vibratore per coppie Duo App ha un odore di plastica molto forte appena aperto, non me lo aspettavo da un silicone medicale. Resto in attesa.",difetto_prodotto
+TCK-2064,2026-04-16,email,SKU-107,Kit plug progressivo,anale,"ho ricevuto una risposta chiara e senza giudizio, e per un acquisto del genere conta parecchio. Grazie mille.",assistenza
+TCK-2065,2026-07-25,instagram,SKU-104,Vibratore per coppie Duo App,coppie-app,"Salve, il codice sconto non si applica al carrello, ho provato con tre browser diversi. Grazie in anticipo.",promo_ordini
+TCK-2066,2026-09-12,instagram,SKU-102,Vibratore Rabbit Nova,vibratori,"Salve, il Vibratore Rabbit Nova si può usare con un lubrificante al silicone o rovina il materiale? Resto in attesa.",uso_prodotto
+TCK-2067,2026-09-20,instagram,SKU-103,Wand massaggiante Vela,wand,"Ciao, cerco qualcosa da usare in coppia a distanza, quale mi consigliate? Potete aiutarmi?",scelta_preacquisto
+TCK-2068,2026-08-15,email,SKU-104,Vibratore per coppie Duo App,coppie-app,"Ciao, l'app si disconnette in continuazione quando lo controllo a distanza. È normale? Resto in attesa.",uso_prodotto
+TCK-2069,2026-09-05,email,SKU-112,Body in pizzo Luce,lingerie,"Buongiorno, le informazioni sul prodotto sono insufficienti, ho comprato praticamente alla cieca. Fatemi sapere per favore.",informazione_scheda
+TCK-2070,2026-04-21,email,SKU-102,Vibratore Rabbit Nova,vibratori,"Buonasera, consegna prevista in 48 ore, ne sono passate 96. Il prodotto mi serviva per un regalo. Grazie mille.",logistica_consegna
+TCK-2071,2026-08-30,chat,SKU-107,Kit plug progressivo,anale,"Buonasera, chiedo da tre settimane lo stato del rimborso, ricevo solo risposte generiche.",reso_rimborso
+TCK-2072,2026-08-19,whatsapp,SKU-104,Vibratore per coppie Duo App,coppie-app,"Ciao, la cinghia del Vibratore per coppie Duo App si è strappata la seconda volta che l'ho usato.",difetto_prodotto
+TCK-2073,2026-04-24,email,SKU-106,Masturbatore Echo,per-lui,"Salve, ho dovuto sostituirlo perché la batteria era gonfia. Assistenza gentile ma lentissima. Potete aiutarmi?",difetto_batteria
+TCK-2074,2026-04-24,email,SKU-112,Body in pizzo Luce,lingerie,"reso rifiutato perché la confezione era aperta, ma come faccio a capire se il prodotto va bene senza aprirlo? Grazie mille.",reso_rimborso
+TCK-2075,2026-07-23,chat,SKU-104,Vibratore per coppie Duo App,coppie-app,"Salve, uno dei pulsanti del Vibratore per coppie Duo App non risponde, devo premerlo cinque volte. Fatemi sapere per favore.",difetto_prodotto
+TCK-2076,2026-09-10,instagram,SKU-111,Kit bondage Soft Start,bdsm,il prezzo in newsletter era diverso da quello sul sito al momento dell'acquisto. Potete aiutarmi?,promo_ordini
+TCK-2077,2026-06-11,chat,SKU-107,Kit plug progressivo,anale,"Buongiorno, chiedo da tre settimane lo stato del rimborso, ricevo solo risposte generiche.",reso_rimborso
+TCK-2078,2026-04-23,email,SKU-111,Kit bondage Soft Start,bdsm,il Kit bondage Soft Start doveva essere impermeabile e invece dopo averlo sciacquato ha iniziato a fare le bizze.,difetto_prodotto
+TCK-2079,2026-05-24,chat,SKU-102,Vibratore Rabbit Nova,vibratori,ordinato il 24/05 e dopo dieci giorni il pacco non è ancora arrivato. Il tracking è fermo da una settimana. Potete aiutarmi?,logistica_consegna
+TCK-2080,2026-07-30,email,SKU-109,Palline vaginali Kegel Set,palline,"Buongiorno, consegna prevista in 48 ore, ne sono passate 96. Il prodotto mi serviva per un regalo.",logistica_consegna
+TCK-2081,2026-06-29,email,SKU-105,Anello fallico Orbit,per-lui,"Buongiorno, ordinato il 29/06 e dopo dieci giorni il pacco non è ancora arrivato. Il tracking è fermo da una settimana.",logistica_consegna
+TCK-2082,2026-05-08,email,SKU-111,Kit bondage Soft Start,bdsm,"Salve, avevo diritto al Bonus Goduria ma non capisco come si richiede. Grazie mille.",promo_ordini
+TCK-2083,2026-06-15,whatsapp,SKU-103,Wand massaggiante Vela,wand,"Ciao, rimborso arrivato parziale senza nessuna spiegazione sulla differenza.",reso_rimborso
+TCK-2084,2026-06-14,email,SKU-110,Lubrificante base acqua Fresh 100ml,lubrificanti,"Ciao, il Lubrificante base acqua Fresh 100ml è adatto a chi è alle prime armi o è troppo intenso? Fatemi sapere per favore.",scelta_preacquisto
+TCK-2085,2026-08-05,chat,SKU-110,Lubrificante base acqua Fresh 100ml,lubrificanti,"Salve, non mi arrivano più le mail con gli ordini, controllato anche lo spam. Potete aiutarmi?",promo_ordini
+TCK-2086,2026-05-29,instagram,SKU-104,Vibratore per coppie Duo App,coppie-app,"non riesco a collegare il Vibratore per coppie Duo App all'app, il bluetooth non lo trova.",uso_prodotto
+TCK-2087,2026-07-20,email,SKU-103,Wand massaggiante Vela,wand,"Buonasera, rimborso arrivato parziale senza nessuna spiegazione sulla differenza. Potete aiutarmi?",reso_rimborso
+TCK-2088,2026-07-09,chat,SKU-105,Anello fallico Orbit,per-lui,"Ciao, vorrei sostituire il Anello fallico Orbit con un modello diverso, ma non trovo da nessuna parte come si fa il cambio.",reso_rimborso
+TCK-2089,2026-04-02,chat,SKU-109,Palline vaginali Kegel Set,palline,"Buongiorno, rimborso arrivato parziale senza nessuna spiegazione sulla differenza. Fatemi sapere per favore.",reso_rimborso
+TCK-2090,2026-04-01,email,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,"Buongiorno, ho chiesto il reso del Succhia-clitoride Aurora venti giorni fa, il rimborso non è ancora arrivato. Potete aiutarmi?",reso_rimborso
+TCK-2091,2026-05-28,chat,SKU-106,Masturbatore Echo,per-lui,"Buongiorno, dopo tre settimane il Masturbatore Echo non si accende più, la base magnetica non aggancia bene.",difetto_batteria
+TCK-2092,2026-06-14,chat,SKU-104,Vibratore per coppie Duo App,coppie-app,"Salve, qual è il modo corretto di pulire il Vibratore per coppie Duo App? Posso usare acqua e sapone o serve un detergente apposta?",uso_prodotto
+TCK-2093,2026-04-09,chat,SKU-112,Body in pizzo Luce,lingerie,"Buongiorno, il Body in pizzo Luce si può usare anche in gravidanza? Potete aiutarmi?",scelta_preacquisto
+TCK-2094,2026-07-13,instagram,SKU-112,Body in pizzo Luce,lingerie,"Ciao, però sull'estratto conto compare un nome che si capisce benissimo cosa sia. Sul sito dite il contrario. Resto in attesa.",imballo_privacy
+TCK-2095,2026-06-26,chat,SKU-109,Palline vaginali Kegel Set,palline,"Salve, ordinato il 26/06 e dopo dieci giorni il pacco non è ancora arrivato. Il tracking è fermo da una settimana.",logistica_consegna
+TCK-2096,2026-05-12,whatsapp,SKU-105,Anello fallico Orbit,per-lui,"Salve, ho ordinato durante la promozione e mi è stato addebitato il prezzo pieno.",promo_ordini
+TCK-2097,2026-03-29,email,SKU-106,Masturbatore Echo,per-lui,"Salve, rimborso arrivato parziale senza nessuna spiegazione sulla differenza.",reso_rimborso
+TCK-2098,2026-07-02,email,SKU-110,Lubrificante base acqua Fresh 100ml,lubrificanti,"doppia scatola e nessun riferimento al contenuto, per me è fondamentale visto che vivo con i miei. Potete aiutarmi?",imballo_privacy
+TCK-2099,2026-07-16,whatsapp,SKU-108,Dildo in silicone Onda,dildo,"Buongiorno, il materiale del Dildo in silicone Onda è compatibile con chi ha la pelle sensibile?",scelta_preacquisto
+TCK-2100,2026-08-13,email,SKU-111,Kit bondage Soft Start,bdsm,"Ciao, rimborso arrivato parziale senza nessuna spiegazione sulla differenza. Grazie in anticipo.",reso_rimborso
+TCK-2101,2026-06-09,email,SKU-106,Masturbatore Echo,per-lui,"Buongiorno, si scarica molto più in fretta di quanto dichiarato nella scheda. Parlavate di due ore.",difetto_batteria
+TCK-2102,2026-04-14,email,SKU-103,Wand massaggiante Vela,wand,"Buongiorno, si scarica molto più in fretta di quanto dichiarato nella scheda. Parlavate di due ore.",difetto_batteria
+TCK-2103,2026-04-30,chat,SKU-112,Body in pizzo Luce,lingerie,"Ciao, si può usare il Body in pizzo Luce sotto la doccia oppure no?",uso_prodotto
+TCK-2104,2026-08-29,instagram,SKU-109,Palline vaginali Kegel Set,palline,il Palline vaginali Kegel Set è adatto a chi è alle prime armi o è troppo intenso? Potete aiutarmi?,scelta_preacquisto
+TCK-2105,2026-04-13,instagram,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,"Buonasera, il cavo di ricarica in dotazione ha smesso di funzionare quasi subito. Grazie mille.",difetto_batteria
+TCK-2106,2026-06-14,email,SKU-102,Vibratore Rabbit Nova,vibratori,il Vibratore Rabbit Nova funziona anche senza app o serve per forza lo smartphone?,scelta_preacquisto
+TCK-2107,2026-04-04,email,SKU-104,Vibratore per coppie Duo App,coppie-app,"Ciao, non riesco a collegare il Vibratore per coppie Duo App all'app, il bluetooth non lo trova. Resto in attesa.",uso_prodotto
+TCK-2108,2026-05-17,chat,SKU-102,Vibratore Rabbit Nova,vibratori,"Buongiorno, rimborso arrivato parziale senza nessuna spiegazione sulla differenza.",reso_rimborso
+TCK-2109,2026-08-20,chat,SKU-111,Kit bondage Soft Start,bdsm,"Salve, volevo capire se il Kit bondage Soft Start è utile per la riabilitazione del pavimento pelvico o è solo per il piacere.",scelta_preacquisto
+TCK-2110,2026-09-14,instagram,SKU-103,Wand massaggiante Vela,wand,"Buonasera, il Wand massaggiante Vela si spegne da solo a metà utilizzo anche se la spia dice che è carico. Potete aiutarmi?",difetto_batteria
+TCK-2111,2026-07-14,instagram,SKU-110,Lubrificante base acqua Fresh 100ml,lubrificanti,"Buonasera, non capisco a cosa servano le diverse modalità del Lubrificante base acqua Fresh 100ml, sul libretto non è spiegato. Grazie mille.",uso_prodotto
+TCK-2112,2026-07-30,email,SKU-110,Lubrificante base acqua Fresh 100ml,lubrificanti,"Salve, reso rifiutato perché la confezione era aperta, ma come faccio a capire se il prodotto va bene senza aprirlo?",reso_rimborso
+TCK-2113,2026-09-17,email,SKU-106,Masturbatore Echo,per-lui,"Buonasera, procedura di reso poco chiara, sul sito non si capisce cosa si può restituire e cosa no. Grazie mille.",reso_rimborso
+TCK-2114,2026-05-28,email,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,"Buonasera, doppia scatola e nessun riferimento al contenuto, per me è fondamentale visto che vivo con i miei. Resto in attesa.",imballo_privacy
+TCK-2115,2026-05-03,email,SKU-110,Lubrificante base acqua Fresh 100ml,lubrificanti,"ordine diviso in due spedizioni senza avvisarmi, ho ricevuto solo metà di quello che ho pagato. Grazie in anticipo.",logistica_consegna
+TCK-2116,2026-07-27,whatsapp,SKU-108,Dildo in silicone Onda,dildo,"Ciao, il Dildo in silicone Onda è arrivato con un difetto sul silicone, c'era proprio un taglio.",difetto_prodotto
+TCK-2117,2026-05-03,instagram,SKU-104,Vibratore per coppie Duo App,coppie-app,"Salve, tracking mai aggiornato, non ho idea di dove sia il mio ordine. Un po' di trasparenza in più non guasterebbe.",logistica_consegna
+TCK-2118,2026-08-09,email,SKU-104,Vibratore per coppie Duo App,coppie-app,"Buongiorno, il Vibratore per coppie Duo App ha smesso di vibrare dopo pochi utilizzi.",difetto_prodotto
+TCK-2119,2026-08-31,email,SKU-103,Wand massaggiante Vela,wand,il Wand massaggiante Vela ha un blocco tasti? Mi si accende da solo in borsa. Grazie mille.,uso_prodotto
+TCK-2120,2026-07-27,instagram,SKU-107,Kit plug progressivo,anale,"Buonasera, seconda volta che un vostro ordine arriva in ritardo. La prima l'ho lasciata correre. Grazie in anticipo.",logistica_consegna
+TCK-2121,2026-07-20,chat,SKU-111,Kit bondage Soft Start,bdsm,"Buongiorno, però sull'estratto conto compare un nome che si capisce benissimo cosa sia. Sul sito dite il contrario. Fatemi sapere per favore.",imballo_privacy
+TCK-2122,2026-08-05,email,SKU-108,Dildo in silicone Onda,dildo,"Ciao, seconda volta che un vostro ordine arriva in ritardo. La prima l'ho lasciata correre.",logistica_consegna
+TCK-2123,2026-06-02,instagram,SKU-104,Vibratore per coppie Duo App,coppie-app,"Salve, l'app si disconnette in continuazione quando lo controllo a distanza. È normale?",uso_prodotto
+TCK-2124,2026-04-19,email,SKU-104,Vibratore per coppie Duo App,coppie-app,"Buonasera, qual è il modo corretto di pulire il Vibratore per coppie Duo App? Posso usare acqua e sapone o serve un detergente apposta? Grazie in anticipo.",uso_prodotto
+TCK-2125,2026-04-14,chat,SKU-106,Masturbatore Echo,per-lui,come si carica il Masturbatore Echo? Nella confezione non c'era nessun foglietto di istruzioni.,uso_prodotto
+TCK-2126,2026-07-06,instagram,SKU-106,Masturbatore Echo,per-lui,"Buongiorno, chiedo da tre settimane lo stato del rimborso, ricevo solo risposte generiche. Grazie in anticipo.",reso_rimborso
+TCK-2127,2026-05-29,email,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,"Buongiorno, rimborso arrivato parziale senza nessuna spiegazione sulla differenza.",reso_rimborso
+TCK-2128,2026-09-01,chat,SKU-104,Vibratore per coppie Duo App,coppie-app,"Ciao, come faccio a capire se il Vibratore per coppie Duo App è completamente carico? La spia lampeggia e basta.",uso_prodotto
+TCK-2129,2026-05-10,chat,SKU-102,Vibratore Rabbit Nova,vibratori,"molto più rumoroso di quanto immaginassi, si sente da fuori dalla stanza.",difetto_prodotto
+TCK-2130,2026-07-13,instagram,SKU-104,Vibratore per coppie Duo App,coppie-app,qual è il modo corretto di pulire il Vibratore per coppie Duo App? Posso usare acqua e sapone o serve un detergente apposta? Potete aiutarmi?,uso_prodotto
+TCK-2131,2026-08-19,email,SKU-104,Vibratore per coppie Duo App,coppie-app,"Salve, dopo tre settimane il Vibratore per coppie Duo App non si accende più, la base magnetica non aggancia bene. Grazie in anticipo.",difetto_batteria
+TCK-2132,2026-08-31,email,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,il Succhia-clitoride Aurora si spegne da solo a metà utilizzo anche se la spia dice che è carico. Grazie in anticipo.,difetto_batteria
+TCK-2133,2026-06-28,chat,SKU-106,Masturbatore Echo,per-lui,spedizione in ritardo di oltre una settimana rispetto a quanto indicato in fase di acquisto. Fatemi sapere per favore.,logistica_consegna
+TCK-2134,2026-07-22,email,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,"Salve, ho ricevuto un prodotto diverso da quello ordinato e mi tocca pagare io la spedizione del reso.",reso_rimborso
+TCK-2135,2026-08-02,chat,SKU-103,Wand massaggiante Vela,wand,dove si conserva il Wand massaggiante Vela? Va bene lasciarlo nella custodia insieme ad altri? Fatemi sapere per favore.,uso_prodotto
+TCK-2136,2026-04-30,instagram,SKU-102,Vibratore Rabbit Nova,vibratori,"Buonasera, descrizione molto vaga, le recensioni degli altri clienti mi hanno aiutato più della scheda. Grazie in anticipo.",informazione_scheda
+TCK-2137,2026-07-23,chat,SKU-106,Masturbatore Echo,per-lui,"Buonasera, il Masturbatore Echo ha un blocco tasti? Mi si accende da solo in borsa. Fatemi sapere per favore.",uso_prodotto
+TCK-2138,2026-05-18,email,SKU-102,Vibratore Rabbit Nova,vibratori,il corriere ha segnato consegnato ma non ho ricevuto nulla. Ho scritto e sto ancora aspettando. Potete aiutarmi?,logistica_consegna
+TCK-2139,2026-04-13,email,SKU-112,Body in pizzo Luce,lingerie,"Buonasera, il Body in pizzo Luce è adatto a chi è alle prime armi o è troppo intenso? Grazie in anticipo.",scelta_preacquisto
+TCK-2140,2026-09-13,email,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,non si capisce dalla descrizione se il Succhia-clitoride Aurora è ricaricabile o va a pile. Grazie in anticipo.,informazione_scheda
+TCK-2141,2026-09-11,email,SKU-111,Kit bondage Soft Start,bdsm,"doppia scatola e nessun riferimento al contenuto, per me è fondamentale visto che vivo con i miei. Potete aiutarmi?",imballo_privacy
+TCK-2142,2026-08-27,email,SKU-104,Vibratore per coppie Duo App,coppie-app,"Buonasera, come si carica il Vibratore per coppie Duo App? Nella confezione non c'era nessun foglietto di istruzioni. Grazie mille.",uso_prodotto
+TCK-2143,2026-05-14,chat,SKU-110,Lubrificante base acqua Fresh 100ml,lubrificanti,"Ciao, molto più rumoroso di quanto immaginassi, si sente da fuori dalla stanza. Grazie mille.",difetto_prodotto
+TCK-2144,2026-09-04,chat,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,"Buongiorno, il pacco era anonimo ma la bolla del corriere riportava la descrizione della merce. Grazie mille.",imballo_privacy
+TCK-2145,2026-09-09,chat,SKU-112,Body in pizzo Luce,lingerie,"Buonasera, procedura di reso poco chiara, sul sito non si capisce cosa si può restituire e cosa no.",reso_rimborso
+TCK-2146,2026-08-06,email,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,ho ricevuto un prodotto diverso da quello ordinato e mi tocca pagare io la spedizione del reso. Fatemi sapere per favore.,reso_rimborso
+TCK-2147,2026-06-05,chat,SKU-111,Kit bondage Soft Start,bdsm,"Buongiorno, ho ricevuto un prodotto diverso da quello ordinato e mi tocca pagare io la spedizione del reso. Grazie mille.",reso_rimborso
+TCK-2148,2026-08-28,email,SKU-112,Body in pizzo Luce,lingerie,"Buongiorno, sto scegliendo tra il Body in pizzo Luce e un altro modello, non capisco la differenza tra i due.",scelta_preacquisto
+TCK-2149,2026-05-19,instagram,SKU-112,Body in pizzo Luce,lingerie,che taglia prendo del Body in pizzo Luce? Le misure sulla scheda non corrispondono a quelle italiane.,scelta_preacquisto
+TCK-2150,2026-08-24,chat,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,"Buonasera, le istruzioni del Succhia-clitoride Aurora sono solo in inglese e in cinese, in italiano niente.",uso_prodotto
+TCK-2151,2026-04-28,whatsapp,SKU-110,Lubrificante base acqua Fresh 100ml,lubrificanti,"Buonasera, ho pagato la spedizione express e è arrivato con gli stessi tempi di quella standard.",logistica_consegna
+TCK-2152,2026-09-07,chat,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,"Buonasera, ho dovuto sostituirlo perché la batteria era gonfia. Assistenza gentile ma lentissima. Grazie in anticipo.",difetto_batteria
+TCK-2153,2026-08-07,email,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,"non capisco a cosa servano le diverse modalità del Succhia-clitoride Aurora, sul libretto non è spiegato.",uso_prodotto
+TCK-2154,2026-06-25,email,SKU-105,Anello fallico Orbit,per-lui,"Buongiorno, reso rifiutato perché la confezione era aperta, ma come faccio a capire se il prodotto va bene senza aprirlo?",reso_rimborso
+TCK-2155,2026-04-16,instagram,SKU-102,Vibratore Rabbit Nova,vibratori,"Ciao, non riesco a collegare il Vibratore Rabbit Nova all'app, il bluetooth non lo trova.",uso_prodotto
+TCK-2156,2026-06-27,whatsapp,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,"Salve, si può usare il Succhia-clitoride Aurora sotto la doccia oppure no?",uso_prodotto
+TCK-2157,2026-05-09,email,SKU-102,Vibratore Rabbit Nova,vibratori,"Salve, il Vibratore Rabbit Nova è adatto a chi è alle prime armi o è troppo intenso? Grazie mille.",scelta_preacquisto
+TCK-2158,2026-06-28,chat,SKU-111,Kit bondage Soft Start,bdsm,"Ciao, avevo diritto al Bonus Goduria ma non capisco come si richiede. Grazie mille.",promo_ordini
+TCK-2159,2026-05-10,whatsapp,SKU-104,Vibratore per coppie Duo App,coppie-app,"Buongiorno, doppia scatola e nessun riferimento al contenuto, per me è fondamentale visto che vivo con i miei.",imballo_privacy
+TCK-2160,2026-08-31,email,SKU-111,Kit bondage Soft Start,bdsm,"Buonasera, il Kit bondage Soft Start si può usare anche in gravidanza?",scelta_preacquisto
+TCK-2161,2026-08-23,chat,SKU-104,Vibratore per coppie Duo App,coppie-app,"Salve, il Vibratore per coppie Duo App non tiene la carica: dopo venti minuti è già scarico. Fatemi sapere per favore.",difetto_batteria
+TCK-2162,2026-06-27,email,SKU-104,Vibratore per coppie Duo App,coppie-app,"Ciao, qual è il modo corretto di pulire il Vibratore per coppie Duo App? Posso usare acqua e sapone o serve un detergente apposta? Grazie in anticipo.",uso_prodotto
+TCK-2163,2026-04-17,chat,SKU-105,Anello fallico Orbit,per-lui,"Buonasera, ho pagato la spedizione anche se avevo superato la soglia della spedizione gratuita. Resto in attesa.",promo_ordini
+TCK-2164,2026-09-03,chat,SKU-105,Anello fallico Orbit,per-lui,"Buongiorno, rimborso arrivato parziale senza nessuna spiegazione sulla differenza. Grazie mille.",reso_rimborso
+TCK-2165,2026-05-03,chat,SKU-103,Wand massaggiante Vela,wand,"Buongiorno, le istruzioni del Wand massaggiante Vela sono solo in inglese e in cinese, in italiano niente. Fatemi sapere per favore.",uso_prodotto
+TCK-2166,2026-08-08,email,SKU-108,Dildo in silicone Onda,dildo,"Buongiorno, pacco bloccato in transito da sei giorni, nessuno mi sa dire nulla.",logistica_consegna
+TCK-2167,2026-05-28,instagram,SKU-104,Vibratore per coppie Duo App,coppie-app,"Ciao, il Vibratore per coppie Duo App funziona anche senza app o serve per forza lo smartphone?",scelta_preacquisto
+TCK-2168,2026-06-25,email,SKU-104,Vibratore per coppie Duo App,coppie-app,"Buonasera, l'app si disconnette in continuazione quando lo controllo a distanza. È normale?",uso_prodotto
+TCK-2169,2026-08-13,chat,SKU-104,Vibratore per coppie Duo App,coppie-app,"Buonasera, l'app si disconnette in continuazione quando lo controllo a distanza. È normale?",uso_prodotto
+TCK-2170,2026-06-16,chat,SKU-104,Vibratore per coppie Duo App,coppie-app,"Ciao, non riesco a collegare il Vibratore per coppie Duo App all'app, il bluetooth non lo trova. Grazie mille.",uso_prodotto
+TCK-2171,2026-08-20,chat,SKU-105,Anello fallico Orbit,per-lui,"Ciao, sto scegliendo tra il Anello fallico Orbit e un altro modello, non capisco la differenza tra i due.",scelta_preacquisto
+TCK-2172,2026-07-20,email,SKU-112,Body in pizzo Luce,lingerie,"Ciao, il Body in pizzo Luce si può usare con un lubrificante al silicone o rovina il materiale?",uso_prodotto
+TCK-2173,2026-07-11,email,SKU-103,Wand massaggiante Vela,wand,ho ricevuto un prodotto diverso da quello ordinato e mi tocca pagare io la spedizione del reso. Grazie in anticipo.,reso_rimborso
+TCK-2174,2026-07-23,email,SKU-102,Vibratore Rabbit Nova,vibratori,"Buonasera, l'app si disconnette in continuazione quando lo controllo a distanza. È normale? Fatemi sapere per favore.",uso_prodotto
+TCK-2175,2026-06-18,email,SKU-111,Kit bondage Soft Start,bdsm,"Ciao, le istruzioni del Kit bondage Soft Start sono solo in inglese e in cinese, in italiano niente.",uso_prodotto
+TCK-2176,2026-08-25,email,SKU-102,Vibratore Rabbit Nova,vibratori,"ordine diviso in due spedizioni senza avvisarmi, ho ricevuto solo metà di quello che ho pagato. Fatemi sapere per favore.",logistica_consegna
+TCK-2177,2026-07-25,email,SKU-102,Vibratore Rabbit Nova,vibratori,come faccio a capire se il Vibratore Rabbit Nova è completamente carico? La spia lampeggia e basta. Fatemi sapere per favore.,uso_prodotto
+TCK-2178,2026-07-23,email,SKU-104,Vibratore per coppie Duo App,coppie-app,"Ciao, qual è il modo corretto di pulire il Vibratore per coppie Duo App? Posso usare acqua e sapone o serve un detergente apposta? Grazie in anticipo.",uso_prodotto
+TCK-2179,2026-08-25,chat,SKU-104,Vibratore per coppie Duo App,coppie-app,"Buongiorno, il Vibratore per coppie Duo App funziona anche senza app o serve per forza lo smartphone? Potete aiutarmi?",scelta_preacquisto
+TCK-2180,2026-07-30,chat,SKU-106,Masturbatore Echo,per-lui,"Buongiorno, vorrei fare un regalo alla mia partner ma ho paura di sbagliare, come mi oriento? Grazie mille.",scelta_preacquisto
+TCK-2181,2026-08-20,chat,SKU-112,Body in pizzo Luce,lingerie,"Buongiorno, ordine diviso in due spedizioni senza avvisarmi, ho ricevuto solo metà di quello che ho pagato. Fatemi sapere per favore.",logistica_consegna
+TCK-2182,2026-09-05,chat,SKU-104,Vibratore per coppie Duo App,coppie-app,"Buongiorno, qual è il modo corretto di pulire il Vibratore per coppie Duo App? Posso usare acqua e sapone o serve un detergente apposta? Fatemi sapere per favore.",uso_prodotto
+TCK-2183,2026-04-08,chat,SKU-106,Masturbatore Echo,per-lui,come si carica il Masturbatore Echo? Nella confezione non c'era nessun foglietto di istruzioni. Grazie in anticipo.,uso_prodotto
+TCK-2184,2026-04-10,chat,SKU-109,Palline vaginali Kegel Set,palline,"Salve, ho chiesto il reso del Palline vaginali Kegel Set venti giorni fa, il rimborso non è ancora arrivato. Fatemi sapere per favore.",reso_rimborso
+TCK-2185,2026-06-15,instagram,SKU-103,Wand massaggiante Vela,wand,"Ciao, il Wand massaggiante Vela si può usare con un lubrificante al silicone o rovina il materiale? Grazie in anticipo.",uso_prodotto
+TCK-2186,2026-09-18,whatsapp,SKU-112,Body in pizzo Luce,lingerie,"sono indecisa tra due prodotti della stessa categoria, esiste una guida che li confronti? Fatemi sapere per favore.",scelta_preacquisto
+TCK-2187,2026-06-02,email,SKU-102,Vibratore Rabbit Nova,vibratori,"Salve, l'app si disconnette in continuazione quando lo controllo a distanza. È normale?",uso_prodotto
+TCK-2188,2026-09-16,email,SKU-107,Kit plug progressivo,anale,"Buonasera, il Kit plug progressivo è adatto a chi è alle prime armi o è troppo intenso? Resto in attesa.",scelta_preacquisto
+TCK-2189,2026-05-23,chat,SKU-102,Vibratore Rabbit Nova,vibratori,"Ciao, doppia scatola e nessun riferimento al contenuto, per me è fondamentale visto che vivo con i miei. Fatemi sapere per favore.",imballo_privacy
+TCK-2190,2026-08-02,email,SKU-104,Vibratore per coppie Duo App,coppie-app,"Ciao, l'app si disconnette in continuazione quando lo controllo a distanza. È normale? Fatemi sapere per favore.",uso_prodotto
+TCK-2191,2026-09-14,email,SKU-106,Masturbatore Echo,per-lui,"confezione curata, si capisce che ci avete pensato. Il packaging è anche bello da vedere. Resto in attesa.",imballo_privacy
+TCK-2192,2026-06-19,instagram,SKU-110,Lubrificante base acqua Fresh 100ml,lubrificanti,"Salve, ho chiesto il reso del Lubrificante base acqua Fresh 100ml venti giorni fa, il rimborso non è ancora arrivato.",reso_rimborso
+TCK-2193,2026-04-20,chat,SKU-105,Anello fallico Orbit,per-lui,dove si conserva il Anello fallico Orbit? Va bene lasciarlo nella custodia insieme ad altri? Fatemi sapere per favore.,uso_prodotto
+TCK-2194,2026-07-14,whatsapp,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,"dopo tre settimane il Succhia-clitoride Aurora non si accende più, la base magnetica non aggancia bene. Resto in attesa.",difetto_batteria
+TCK-2195,2026-07-02,email,SKU-110,Lubrificante base acqua Fresh 100ml,lubrificanti,"Buongiorno, assistenza gentile ma non risolutiva, mi hanno rimandato a una pagina che non c'entrava nulla. Resto in attesa.",assistenza
+TCK-2196,2026-06-10,instagram,SKU-108,Dildo in silicone Onda,dildo,"Ciao, dove si conserva il Dildo in silicone Onda? Va bene lasciarlo nella custodia insieme ad altri?",uso_prodotto
+TCK-2197,2026-06-10,email,SKU-112,Body in pizzo Luce,lingerie,"Buongiorno, però sull'estratto conto compare un nome che si capisce benissimo cosa sia. Sul sito dite il contrario. Grazie in anticipo.",imballo_privacy
+TCK-2198,2026-09-04,instagram,SKU-105,Anello fallico Orbit,per-lui,"Ciao, il Anello fallico Orbit ha smesso di vibrare dopo pochi utilizzi. Resto in attesa.",difetto_prodotto
+TCK-2199,2026-07-08,email,SKU-107,Kit plug progressivo,anale,"Buonasera, il Kit plug progressivo risulta consegnato al vicino ma nessuno mi ha avvisato, l'ho scoperto per caso. Grazie mille.",logistica_consegna
+TCK-2200,2026-04-01,email,SKU-110,Lubrificante base acqua Fresh 100ml,lubrificanti,"Ciao, il Lubrificante base acqua Fresh 100ml risulta consegnato al vicino ma nessuno mi ha avvisato, l'ho scoperto per caso.",logistica_consegna
+TCK-2201,2026-06-17,chat,SKU-110,Lubrificante base acqua Fresh 100ml,lubrificanti,"Salve, reso rifiutato perché la confezione era aperta, ma come faccio a capire se il prodotto va bene senza aprirlo?",reso_rimborso
+TCK-2202,2026-03-27,chat,SKU-102,Vibratore Rabbit Nova,vibratori,"Buonasera, il Vibratore Rabbit Nova si può usare anche in gravidanza? Grazie in anticipo.",scelta_preacquisto
+TCK-2203,2026-06-01,chat,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,"consegna prevista in 48 ore, ne sono passate 96. Il prodotto mi serviva per un regalo.",logistica_consegna
+TCK-2204,2026-07-01,email,SKU-108,Dildo in silicone Onda,dildo,"Salve, mi avevano promesso il rimborso via mail, da allora silenzio totale. Potete aiutarmi?",reso_rimborso
+TCK-2205,2026-06-12,email,SKU-107,Kit plug progressivo,anale,"Salve, vivo in condivisione e la discrezione era il motivo per cui ho scelto voi: promessa mantenuta.",imballo_privacy
+TCK-2206,2026-05-19,whatsapp,SKU-111,Kit bondage Soft Start,bdsm,"Ciao, rimborso arrivato parziale senza nessuna spiegazione sulla differenza. Resto in attesa.",reso_rimborso
+TCK-2207,2026-09-13,instagram,SKU-102,Vibratore Rabbit Nova,vibratori,"reso rifiutato perché la confezione era aperta, ma come faccio a capire se il prodotto va bene senza aprirlo? Resto in attesa.",reso_rimborso
+TCK-2208,2026-04-26,chat,SKU-108,Dildo in silicone Onda,dildo,"procedura di reso poco chiara, sul sito non si capisce cosa si può restituire e cosa no.",reso_rimborso
+TCK-2209,2026-08-09,chat,SKU-102,Vibratore Rabbit Nova,vibratori,il Vibratore Rabbit Nova funziona anche senza app o serve per forza lo smartphone? Grazie in anticipo.,scelta_preacquisto
+TCK-2210,2026-08-24,instagram,SKU-106,Masturbatore Echo,per-lui,"Buonasera, mi è arrivato già usato, la confezione era chiaramente stata aperta.",difetto_prodotto
+TCK-2211,2026-04-24,instagram,SKU-112,Body in pizzo Luce,lingerie,"Salve, ho ricevuto un prodotto diverso da quello ordinato e mi tocca pagare io la spedizione del reso.",reso_rimborso
+TCK-2212,2026-09-06,instagram,SKU-112,Body in pizzo Luce,lingerie,che taglia prendo del Body in pizzo Luce? Le misure sulla scheda non corrispondono a quelle italiane. Fatemi sapere per favore.,scelta_preacquisto
+TCK-2213,2026-08-03,instagram,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,"Buongiorno, il prezzo in newsletter era diverso da quello sul sito al momento dell'acquisto. Potete aiutarmi?",promo_ordini
+TCK-2214,2026-09-01,email,SKU-103,Wand massaggiante Vela,wand,"Buonasera, sto scegliendo tra il Wand massaggiante Vela e un altro modello, non capisco la differenza tra i due.",scelta_preacquisto
+TCK-2215,2026-09-18,email,SKU-112,Body in pizzo Luce,lingerie,"Buongiorno, che taglia prendo del Body in pizzo Luce? Le misure sulla scheda non corrispondono a quelle italiane. Grazie mille.",scelta_preacquisto
+TCK-2216,2026-09-04,email,SKU-104,Vibratore per coppie Duo App,coppie-app,l'app si disconnette in continuazione quando lo controllo a distanza. È normale?,uso_prodotto
+TCK-2217,2026-09-08,email,SKU-106,Masturbatore Echo,per-lui,"Buongiorno, cerco qualcosa da usare in coppia a distanza, quale mi consigliate?",scelta_preacquisto
+TCK-2218,2026-03-28,instagram,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,"Ciao, dove si conserva il Succhia-clitoride Aurora? Va bene lasciarlo nella custodia insieme ad altri? Resto in attesa.",uso_prodotto
+TCK-2219,2026-08-05,instagram,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,il cavo di ricarica in dotazione ha smesso di funzionare quasi subito. Grazie in anticipo.,difetto_batteria
+TCK-2220,2026-07-09,email,SKU-107,Kit plug progressivo,anale,"Buonasera, mi è arrivato già usato, la confezione era chiaramente stata aperta. Grazie in anticipo.",difetto_prodotto
+TCK-2221,2026-08-05,instagram,SKU-104,Vibratore per coppie Duo App,coppie-app,"Buonasera, la cinghia del Vibratore per coppie Duo App si è strappata la seconda volta che l'ho usato. Fatemi sapere per favore.",difetto_prodotto
+TCK-2222,2026-05-01,email,SKU-104,Vibratore per coppie Duo App,coppie-app,"il Vibratore per coppie Duo App ha un odore di plastica molto forte appena aperto, non me lo aspettavo da un silicone medicale. Resto in attesa.",difetto_prodotto
+TCK-2223,2026-04-13,instagram,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,non si capisce dalla descrizione se il Succhia-clitoride Aurora è ricaricabile o va a pile.,informazione_scheda
+TCK-2224,2026-06-30,email,SKU-109,Palline vaginali Kegel Set,palline,"Buonasera, il Palline vaginali Kegel Set risulta consegnato al vicino ma nessuno mi ha avvisato, l'ho scoperto per caso. Grazie in anticipo.",logistica_consegna
+TCK-2225,2026-04-12,chat,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,"Buonasera, dopo tre settimane il Succhia-clitoride Aurora non si accende più, la base magnetica non aggancia bene. Fatemi sapere per favore.",difetto_batteria
+TCK-2226,2026-04-06,email,SKU-103,Wand massaggiante Vela,wand,"Ciao, non si capisce dalla descrizione se il Wand massaggiante Vela è ricaricabile o va a pile. Resto in attesa.",informazione_scheda
+TCK-2227,2026-04-01,email,SKU-112,Body in pizzo Luce,lingerie,"Buonasera, il Body in pizzo Luce è silenzioso? Vivo con dei coinquilini e per me è la cosa più importante.",scelta_preacquisto
+TCK-2228,2026-04-20,email,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,"Ciao, pacco bloccato in transito da sei giorni, nessuno mi sa dire nulla. Grazie mille.",logistica_consegna
+TCK-2229,2026-05-27,email,SKU-112,Body in pizzo Luce,lingerie,"Buongiorno, il Body in pizzo Luce è adatto a chi è alle prime armi o è troppo intenso?",scelta_preacquisto
+TCK-2230,2026-05-24,instagram,SKU-111,Kit bondage Soft Start,bdsm,il Kit bondage Soft Start doveva essere impermeabile e invece dopo averlo sciacquato ha iniziato a fare le bizze.,difetto_prodotto
+TCK-2231,2026-06-15,email,SKU-110,Lubrificante base acqua Fresh 100ml,lubrificanti,"le istruzioni del Lubrificante base acqua Fresh 100ml sono solo in inglese e in cinese, in italiano niente. Fatemi sapere per favore.",uso_prodotto
+TCK-2232,2026-06-07,chat,SKU-104,Vibratore per coppie Duo App,coppie-app,"Buonasera, il Vibratore per coppie Duo App ha un odore di plastica molto forte appena aperto, non me lo aspettavo da un silicone medicale.",difetto_prodotto
+TCK-2233,2026-09-09,email,SKU-105,Anello fallico Orbit,per-lui,"Buongiorno, la ricarica magnetica si stacca al minimo movimento, è impossibile lasciarlo in carica. Fatemi sapere per favore.",difetto_batteria
+TCK-2234,2026-05-03,chat,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,"Salve, le foto del Succhia-clitoride Aurora non rendono l'idea del colore vero. Grazie mille.",informazione_scheda
+TCK-2235,2026-09-05,email,SKU-111,Kit bondage Soft Start,bdsm,"Buonasera, reso rifiutato perché la confezione era aperta, ma come faccio a capire se il prodotto va bene senza aprirlo?",reso_rimborso
+TCK-2236,2026-08-29,email,SKU-112,Body in pizzo Luce,lingerie,"Buonasera, non capisco a cosa servano le diverse modalità del Body in pizzo Luce, sul libretto non è spiegato. Grazie in anticipo.",uso_prodotto
+TCK-2237,2026-08-26,email,SKU-109,Palline vaginali Kegel Set,palline,"Buonasera, le foto del Palline vaginali Kegel Set non rendono l'idea del colore vero. Grazie mille.",informazione_scheda
+TCK-2238,2026-07-23,instagram,SKU-103,Wand massaggiante Vela,wand,"Salve, mi è arrivato già usato, la confezione era chiaramente stata aperta. Potete aiutarmi?",difetto_prodotto
+TCK-2239,2026-08-22,whatsapp,SKU-106,Masturbatore Echo,per-lui,"Salve, consegna prevista in 48 ore, ne sono passate 96. Il prodotto mi serviva per un regalo. Fatemi sapere per favore.",logistica_consegna
+TCK-2240,2026-05-24,chat,SKU-102,Vibratore Rabbit Nova,vibratori,"Salve, qual è il modo corretto di pulire il Vibratore Rabbit Nova? Posso usare acqua e sapone o serve un detergente apposta? Resto in attesa.",uso_prodotto
+TCK-2241,2026-08-20,whatsapp,SKU-104,Vibratore per coppie Duo App,coppie-app,"Buonasera, cerco qualcosa da usare in coppia a distanza, quale mi consigliate?",scelta_preacquisto
+TCK-2242,2026-07-21,chat,SKU-106,Masturbatore Echo,per-lui,"Buongiorno, il Masturbatore Echo risulta consegnato al vicino ma nessuno mi ha avvisato, l'ho scoperto per caso.",logistica_consegna
+TCK-2243,2026-07-02,instagram,SKU-110,Lubrificante base acqua Fresh 100ml,lubrificanti,"Ciao, molto più rumoroso di quanto immaginassi, si sente da fuori dalla stanza. Resto in attesa.",difetto_prodotto
+TCK-2244,2026-04-07,instagram,SKU-104,Vibratore per coppie Duo App,coppie-app,ho pagato la spedizione anche se avevo superato la soglia della spedizione gratuita. Grazie in anticipo.,promo_ordini
+TCK-2245,2026-09-20,instagram,SKU-106,Masturbatore Echo,per-lui,"Ciao, il prezzo in newsletter era diverso da quello sul sito al momento dell'acquisto. Grazie in anticipo.",promo_ordini
+TCK-2246,2026-07-03,email,SKU-104,Vibratore per coppie Duo App,coppie-app,"Ciao, però sull'estratto conto compare un nome che si capisce benissimo cosa sia. Sul sito dite il contrario.",imballo_privacy
+TCK-2247,2026-07-12,email,SKU-107,Kit plug progressivo,anale,"Buongiorno, rimborso arrivato parziale senza nessuna spiegazione sulla differenza.",reso_rimborso
+TCK-2248,2026-09-09,instagram,SKU-111,Kit bondage Soft Start,bdsm,"Buonasera, ho ricevuto un prodotto diverso da quello ordinato e mi tocca pagare io la spedizione del reso. Resto in attesa.",reso_rimborso
+TCK-2249,2026-04-08,email,SKU-109,Palline vaginali Kegel Set,palline,"Ciao, uno dei pulsanti del Palline vaginali Kegel Set non risponde, devo premerlo cinque volte. Potete aiutarmi?",difetto_prodotto
+TCK-2250,2026-04-04,instagram,SKU-106,Masturbatore Echo,per-lui,"Buongiorno, il Masturbatore Echo è adatto a chi è alle prime armi o è troppo intenso?",scelta_preacquisto
+TCK-2251,2026-04-02,instagram,SKU-103,Wand massaggiante Vela,wand,il Wand massaggiante Vela si può usare con un lubrificante al silicone o rovina il materiale? Grazie in anticipo.,uso_prodotto
+TCK-2252,2026-05-25,instagram,SKU-106,Masturbatore Echo,per-lui,avevo diritto al Bonus Goduria ma non capisco come si richiede.,promo_ordini
+TCK-2253,2026-09-16,email,SKU-112,Body in pizzo Luce,lingerie,"Buongiorno, sto scegliendo tra il Body in pizzo Luce e un altro modello, non capisco la differenza tra i due.",scelta_preacquisto
+TCK-2254,2026-09-09,chat,SKU-112,Body in pizzo Luce,lingerie,"Salve, vorrei sostituire il Body in pizzo Luce con un modello diverso, ma non trovo da nessuna parte come si fa il cambio. Fatemi sapere per favore.",reso_rimborso
+TCK-2255,2026-04-12,email,SKU-105,Anello fallico Orbit,per-lui,"Buonasera, cerco qualcosa da usare in coppia a distanza, quale mi consigliate? Fatemi sapere per favore.",scelta_preacquisto
+TCK-2256,2026-04-29,chat,SKU-112,Body in pizzo Luce,lingerie,"Buongiorno, che taglia prendo del Body in pizzo Luce? Le misure sulla scheda non corrispondono a quelle italiane. Grazie mille.",scelta_preacquisto
+TCK-2257,2026-06-22,whatsapp,SKU-104,Vibratore per coppie Duo App,coppie-app,"sono indecisa tra due prodotti della stessa categoria, esiste una guida che li confronti?",scelta_preacquisto
+TCK-2258,2026-04-30,chat,SKU-111,Kit bondage Soft Start,bdsm,"Buongiorno, procedura di reso poco chiara, sul sito non si capisce cosa si può restituire e cosa no. Fatemi sapere per favore.",reso_rimborso
+TCK-2259,2026-08-30,instagram,SKU-107,Kit plug progressivo,anale,"Salve, il corriere ha segnato consegnato ma non ho ricevuto nulla. Ho scritto e sto ancora aspettando.",logistica_consegna
+TCK-2260,2026-07-28,email,SKU-102,Vibratore Rabbit Nova,vibratori,"Buonasera, il Vibratore Rabbit Nova doveva essere impermeabile e invece dopo averlo sciacquato ha iniziato a fare le bizze. Grazie in anticipo.",difetto_prodotto
+TCK-2261,2026-08-13,whatsapp,SKU-107,Kit plug progressivo,anale,ho pagato la spedizione anche se avevo superato la soglia della spedizione gratuita. Grazie mille.,promo_ordini
+TCK-2262,2026-05-20,chat,SKU-104,Vibratore per coppie Duo App,coppie-app,qual è il modo corretto di pulire il Vibratore per coppie Duo App? Posso usare acqua e sapone o serve un detergente apposta? Grazie in anticipo.,uso_prodotto
+TCK-2263,2026-08-11,whatsapp,SKU-109,Palline vaginali Kegel Set,palline,"Salve, non capisco a cosa servano le diverse modalità del Palline vaginali Kegel Set, sul libretto non è spiegato. Grazie in anticipo.",uso_prodotto
+TCK-2264,2026-06-22,email,SKU-110,Lubrificante base acqua Fresh 100ml,lubrificanti,"Buongiorno, spedizione in ritardo di oltre una settimana rispetto a quanto indicato in fase di acquisto. Grazie in anticipo.",logistica_consegna
+TCK-2265,2026-07-29,whatsapp,SKU-112,Body in pizzo Luce,lingerie,si può usare il Body in pizzo Luce sotto la doccia oppure no? Fatemi sapere per favore.,uso_prodotto
+TCK-2266,2026-04-14,email,SKU-103,Wand massaggiante Vela,wand,il corriere ha segnato consegnato ma non ho ricevuto nulla. Ho scritto e sto ancora aspettando. Grazie in anticipo.,logistica_consegna
+TCK-2267,2026-07-14,email,SKU-110,Lubrificante base acqua Fresh 100ml,lubrificanti,"Salve, reso rifiutato perché la confezione era aperta, ma come faccio a capire se il prodotto va bene senza aprirlo? Potete aiutarmi?",reso_rimborso
+TCK-2268,2026-09-21,instagram,SKU-102,Vibratore Rabbit Nova,vibratori,"Ciao, ho chiesto il reso del Vibratore Rabbit Nova venti giorni fa, il rimborso non è ancora arrivato. Resto in attesa.",reso_rimborso
+TCK-2269,2026-05-13,chat,SKU-112,Body in pizzo Luce,lingerie,"Salve, che taglia prendo del Body in pizzo Luce? Le misure sulla scheda non corrispondono a quelle italiane.",scelta_preacquisto
+TCK-2270,2026-08-25,instagram,SKU-105,Anello fallico Orbit,per-lui,"Buonasera, non si capisce dalla descrizione se il Anello fallico Orbit è ricaricabile o va a pile. Fatemi sapere per favore.",informazione_scheda
+TCK-2271,2026-05-15,whatsapp,SKU-104,Vibratore per coppie Duo App,coppie-app,"Buongiorno, il cavo di ricarica in dotazione ha smesso di funzionare quasi subito. Fatemi sapere per favore.",difetto_batteria
+TCK-2272,2026-05-02,email,SKU-102,Vibratore Rabbit Nova,vibratori,"Buonasera, spedizione in ritardo di oltre una settimana rispetto a quanto indicato in fase di acquisto. Potete aiutarmi?",logistica_consegna
+TCK-2273,2026-06-28,whatsapp,SKU-109,Palline vaginali Kegel Set,palline,"tracking mai aggiornato, non ho idea di dove sia il mio ordine. Un po' di trasparenza in più non guasterebbe.",logistica_consegna
+TCK-2274,2026-07-07,chat,SKU-107,Kit plug progressivo,anale,"Ciao, il materiale del Kit plug progressivo è compatibile con chi ha la pelle sensibile? Resto in attesa.",scelta_preacquisto
+TCK-2275,2026-04-25,chat,SKU-104,Vibratore per coppie Duo App,coppie-app,"Ciao, il corriere ha segnato consegnato ma non ho ricevuto nulla. Ho scritto e sto ancora aspettando. Grazie mille.",logistica_consegna
+TCK-2276,2026-04-24,whatsapp,SKU-104,Vibratore per coppie Duo App,coppie-app,come faccio a capire se il Vibratore per coppie Duo App è completamente carico? La spia lampeggia e basta. Fatemi sapere per favore.,uso_prodotto
+TCK-2277,2026-04-24,chat,SKU-108,Dildo in silicone Onda,dildo,"tracking mai aggiornato, non ho idea di dove sia il mio ordine. Un po' di trasparenza in più non guasterebbe. Resto in attesa.",logistica_consegna
+TCK-2278,2026-06-11,instagram,SKU-102,Vibratore Rabbit Nova,vibratori,"Buongiorno, il Vibratore Rabbit Nova è silenzioso? Vivo con dei coinquilini e per me è la cosa più importante.",scelta_preacquisto
+TCK-2279,2026-04-10,instagram,SKU-104,Vibratore per coppie Duo App,coppie-app,"Salve, il Vibratore per coppie Duo App funziona anche senza app o serve per forza lo smartphone? Fatemi sapere per favore.",scelta_preacquisto
+TCK-2280,2026-05-23,whatsapp,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,"Ciao, ordinato il 23/05 e dopo dieci giorni il pacco non è ancora arrivato. Il tracking è fermo da una settimana. Potete aiutarmi?",logistica_consegna
+TCK-2281,2026-04-08,whatsapp,SKU-109,Palline vaginali Kegel Set,palline,"Buonasera, mi avevano promesso il rimborso via mail, da allora silenzio totale. Grazie in anticipo.",reso_rimborso
+TCK-2282,2026-06-12,email,SKU-111,Kit bondage Soft Start,bdsm,"Ciao, il Kit bondage Soft Start si può usare con un lubrificante al silicone o rovina il materiale?",uso_prodotto
+TCK-2283,2026-06-11,email,SKU-109,Palline vaginali Kegel Set,palline,"Buonasera, vivo in condivisione e la discrezione era il motivo per cui ho scelto voi: promessa mantenuta. Resto in attesa.",imballo_privacy
+TCK-2284,2026-07-02,chat,SKU-105,Anello fallico Orbit,per-lui,come si carica il Anello fallico Orbit? Nella confezione non c'era nessun foglietto di istruzioni. Fatemi sapere per favore.,uso_prodotto
+TCK-2285,2026-07-01,email,SKU-109,Palline vaginali Kegel Set,palline,"Buonasera, è il mio primo acquisto di questo tipo e non so proprio da dove iniziare. Potete consigliarmi? Fatemi sapere per favore.",scelta_preacquisto
+TCK-2286,2026-09-18,email,SKU-105,Anello fallico Orbit,per-lui,"Ciao, volevo capire se il Anello fallico Orbit è utile per la riabilitazione del pavimento pelvico o è solo per il piacere. Potete aiutarmi?",scelta_preacquisto
+TCK-2287,2026-06-29,email,SKU-105,Anello fallico Orbit,per-lui,"Ciao, il Anello fallico Orbit ha smesso di vibrare dopo pochi utilizzi. Fatemi sapere per favore.",difetto_prodotto
+TCK-2288,2026-08-04,instagram,SKU-102,Vibratore Rabbit Nova,vibratori,"Salve, ho chiesto il reso del Vibratore Rabbit Nova venti giorni fa, il rimborso non è ancora arrivato. Grazie in anticipo.",reso_rimborso
+TCK-2289,2026-06-03,instagram,SKU-104,Vibratore per coppie Duo App,coppie-app,"Ciao, qual è il modo corretto di pulire il Vibratore per coppie Duo App? Posso usare acqua e sapone o serve un detergente apposta? Grazie mille.",uso_prodotto
+TCK-2290,2026-05-04,email,SKU-105,Anello fallico Orbit,per-lui,"Buongiorno, il Anello fallico Orbit non tiene la carica: dopo venti minuti è già scarico. Resto in attesa.",difetto_batteria
+TCK-2291,2026-06-16,chat,SKU-106,Masturbatore Echo,per-lui,come faccio a capire se il Masturbatore Echo è completamente carico? La spia lampeggia e basta. Grazie mille.,uso_prodotto
+TCK-2292,2026-08-21,email,SKU-110,Lubrificante base acqua Fresh 100ml,lubrificanti,"Ciao, mi avevano promesso il rimborso via mail, da allora silenzio totale. Grazie in anticipo.",reso_rimborso
+TCK-2293,2026-07-01,email,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,"Buonasera, come si carica il Succhia-clitoride Aurora? Nella confezione non c'era nessun foglietto di istruzioni. Resto in attesa.",uso_prodotto
+TCK-2294,2026-04-03,email,SKU-104,Vibratore per coppie Duo App,coppie-app,"Salve, non riesco a collegare il Vibratore per coppie Duo App all'app, il bluetooth non lo trova.",uso_prodotto
+TCK-2295,2026-06-10,email,SKU-104,Vibratore per coppie Duo App,coppie-app,"Ciao, non riesco a scaricare la fattura dall'area personale. Fatemi sapere per favore.",promo_ordini
+TCK-2296,2026-08-09,instagram,SKU-112,Body in pizzo Luce,lingerie,"Salve, ho chiesto se il nome che compare sulla carta è riconoscibile e non ho avuto risposta chiara. Resto in attesa.",imballo_privacy
+TCK-2297,2026-05-10,instagram,SKU-108,Dildo in silicone Onda,dildo,il Dildo in silicone Onda ha smesso di vibrare dopo pochi utilizzi. Grazie in anticipo.,difetto_prodotto
+TCK-2298,2026-05-30,chat,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,seconda volta che un vostro ordine arriva in ritardo. La prima l'ho lasciata correre. Grazie in anticipo.,logistica_consegna
+TCK-2299,2026-09-10,chat,SKU-103,Wand massaggiante Vela,wand,il materiale del Wand massaggiante Vela è compatibile con chi ha la pelle sensibile? Resto in attesa.,scelta_preacquisto
+TCK-2300,2026-04-10,instagram,SKU-112,Body in pizzo Luce,lingerie,"Buongiorno, mi avevano promesso il rimborso via mail, da allora silenzio totale. Grazie in anticipo.",reso_rimborso
+TCK-2301,2026-04-06,whatsapp,SKU-104,Vibratore per coppie Duo App,coppie-app,il Vibratore per coppie Duo App funziona anche senza app o serve per forza lo smartphone?,scelta_preacquisto
+TCK-2302,2026-07-04,email,SKU-103,Wand massaggiante Vela,wand,vivo in condivisione e la discrezione era il motivo per cui ho scelto voi: promessa mantenuta.,imballo_privacy
+TCK-2303,2026-03-30,chat,SKU-110,Lubrificante base acqua Fresh 100ml,lubrificanti,"Ciao, nella scheda del Lubrificante base acqua Fresh 100ml non sono indicate le dimensioni reali, dal vivo è molto più grande.",informazione_scheda
+TCK-2304,2026-08-13,whatsapp,SKU-106,Masturbatore Echo,per-lui,seconda volta che un vostro ordine arriva in ritardo. La prima l'ho lasciata correre. Fatemi sapere per favore.,logistica_consegna
+TCK-2305,2026-08-15,chat,SKU-104,Vibratore per coppie Duo App,coppie-app,"il codice sconto non si applica al carrello, ho provato con tre browser diversi. Grazie mille.",promo_ordini
+TCK-2306,2026-09-21,email,SKU-112,Body in pizzo Luce,lingerie,"Buongiorno, sulla scheda del Body in pizzo Luce non è chiaro cosa sia incluso nella confezione. Resto in attesa.",informazione_scheda
+TCK-2307,2026-06-01,email,SKU-107,Kit plug progressivo,anale,"Buonasera, sto scegliendo tra il Kit plug progressivo e un altro modello, non capisco la differenza tra i due.",scelta_preacquisto
+TCK-2308,2026-09-13,email,SKU-102,Vibratore Rabbit Nova,vibratori,"consegna prevista in 48 ore, ne sono passate 96. Il prodotto mi serviva per un regalo.",logistica_consegna
+TCK-2309,2026-08-01,instagram,SKU-106,Masturbatore Echo,per-lui,"reso rifiutato perché la confezione era aperta, ma come faccio a capire se il prodotto va bene senza aprirlo? Potete aiutarmi?",reso_rimborso
+TCK-2310,2026-04-11,chat,SKU-108,Dildo in silicone Onda,dildo,"Ciao, reso rifiutato perché la confezione era aperta, ma come faccio a capire se il prodotto va bene senza aprirlo? Potete aiutarmi?",reso_rimborso
+TCK-2311,2026-08-16,email,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,"Buonasera, procedura di reso poco chiara, sul sito non si capisce cosa si può restituire e cosa no.",reso_rimborso
+TCK-2312,2026-04-12,email,SKU-106,Masturbatore Echo,per-lui,"assistenza gentile ma non risolutiva, mi hanno rimandato a una pagina che non c'entrava nulla.",assistenza
+TCK-2313,2026-09-16,instagram,SKU-108,Dildo in silicone Onda,dildo,"Buongiorno, ordine diviso in due spedizioni senza avvisarmi, ho ricevuto solo metà di quello che ho pagato. Grazie mille.",logistica_consegna
+TCK-2314,2026-09-02,email,SKU-104,Vibratore per coppie Duo App,coppie-app,"Buonasera, il codice sconto non si applica al carrello, ho provato con tre browser diversi.",promo_ordini
+TCK-2315,2026-04-10,instagram,SKU-103,Wand massaggiante Vela,wand,"Buongiorno, le foto del Wand massaggiante Vela non rendono l'idea del colore vero. Resto in attesa.",informazione_scheda
+TCK-2316,2026-05-24,email,SKU-112,Body in pizzo Luce,lingerie,"Salve, vorrei fare un regalo alla mia partner ma ho paura di sbagliare, come mi oriento?",scelta_preacquisto
+TCK-2317,2026-09-06,chat,SKU-102,Vibratore Rabbit Nova,vibratori,"Buonasera, non riesco a collegare il Vibratore Rabbit Nova all'app, il bluetooth non lo trova. Potete aiutarmi?",uso_prodotto
+TCK-2318,2026-08-28,instagram,SKU-104,Vibratore per coppie Duo App,coppie-app,avevo diritto al Bonus Goduria ma non capisco come si richiede. Fatemi sapere per favore.,promo_ordini
+TCK-2319,2026-04-08,instagram,SKU-104,Vibratore per coppie Duo App,coppie-app,rimborso arrivato parziale senza nessuna spiegazione sulla differenza. Fatemi sapere per favore.,reso_rimborso
+TCK-2320,2026-05-12,chat,SKU-103,Wand massaggiante Vela,wand,"Buonasera, però sull'estratto conto compare un nome che si capisce benissimo cosa sia. Sul sito dite il contrario. Grazie mille.",imballo_privacy
+TCK-2321,2026-05-25,chat,SKU-108,Dildo in silicone Onda,dildo,"vorrei fare un regalo alla mia partner ma ho paura di sbagliare, come mi oriento?",scelta_preacquisto
+TCK-2322,2026-06-30,instagram,SKU-105,Anello fallico Orbit,per-lui,"Salve, come faccio a capire se il Anello fallico Orbit è completamente carico? La spia lampeggia e basta.",uso_prodotto
+TCK-2323,2026-05-18,whatsapp,SKU-103,Wand massaggiante Vela,wand,"sto scegliendo tra il Wand massaggiante Vela e un altro modello, non capisco la differenza tra i due.",scelta_preacquisto
+TCK-2324,2026-07-03,email,SKU-112,Body in pizzo Luce,lingerie,"Salve, il Body in pizzo Luce si può usare anche in gravidanza? Fatemi sapere per favore.",scelta_preacquisto
+TCK-2325,2026-03-28,whatsapp,SKU-111,Kit bondage Soft Start,bdsm,"Ciao, sono indecisa tra due prodotti della stessa categoria, esiste una guida che li confronti? Fatemi sapere per favore.",scelta_preacquisto
+TCK-2326,2026-08-05,email,SKU-106,Masturbatore Echo,per-lui,"mi avevano promesso il rimborso via mail, da allora silenzio totale.",reso_rimborso
+TCK-2327,2026-04-25,email,SKU-112,Body in pizzo Luce,lingerie,"Buongiorno, doppia scatola e nessun riferimento al contenuto, per me è fondamentale visto che vivo con i miei. Potete aiutarmi?",imballo_privacy
+TCK-2328,2026-05-16,instagram,SKU-109,Palline vaginali Kegel Set,palline,"Buonasera, tracking mai aggiornato, non ho idea di dove sia il mio ordine. Un po' di trasparenza in più non guasterebbe. Grazie mille.",logistica_consegna
+TCK-2329,2026-08-04,email,SKU-102,Vibratore Rabbit Nova,vibratori,"Buonasera, sto scegliendo tra il Vibratore Rabbit Nova e un altro modello, non capisco la differenza tra i due. Grazie in anticipo.",scelta_preacquisto
+TCK-2330,2026-07-04,chat,SKU-105,Anello fallico Orbit,per-lui,"imballaggio davvero discreto, sulla scatola non c'è scritto niente. Su questo siete impeccabili. Grazie in anticipo.",imballo_privacy
+TCK-2331,2026-09-19,whatsapp,SKU-104,Vibratore per coppie Duo App,coppie-app,il Vibratore per coppie Duo App funziona anche senza app o serve per forza lo smartphone?,scelta_preacquisto
+TCK-2332,2026-07-31,chat,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,"Buongiorno, non si capisce dalla descrizione se il Succhia-clitoride Aurora è ricaricabile o va a pile.",informazione_scheda
+TCK-2333,2026-06-11,email,SKU-104,Vibratore per coppie Duo App,coppie-app,"Buonasera, il cavo di ricarica in dotazione ha smesso di funzionare quasi subito. Grazie in anticipo.",difetto_batteria
+TCK-2334,2026-07-15,email,SKU-102,Vibratore Rabbit Nova,vibratori,"mi è arrivato già usato, la confezione era chiaramente stata aperta. Resto in attesa.",difetto_prodotto
+TCK-2335,2026-06-05,email,SKU-104,Vibratore per coppie Duo App,coppie-app,"il codice sconto non si applica al carrello, ho provato con tre browser diversi. Potete aiutarmi?",promo_ordini
+TCK-2336,2026-07-19,email,SKU-103,Wand massaggiante Vela,wand,il Wand massaggiante Vela si spegne da solo a metà utilizzo anche se la spia dice che è carico. Resto in attesa.,difetto_batteria
+TCK-2337,2026-08-22,chat,SKU-110,Lubrificante base acqua Fresh 100ml,lubrificanti,"Salve, le istruzioni del Lubrificante base acqua Fresh 100ml sono solo in inglese e in cinese, in italiano niente.",uso_prodotto
+TCK-2338,2026-06-09,instagram,SKU-108,Dildo in silicone Onda,dildo,"il Dildo in silicone Onda risulta consegnato al vicino ma nessuno mi ha avvisato, l'ho scoperto per caso. Grazie in anticipo.",logistica_consegna
+TCK-2339,2026-07-23,instagram,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,"Ciao, vorrei fare un regalo alla mia partner ma ho paura di sbagliare, come mi oriento?",scelta_preacquisto
+TCK-2340,2026-06-29,email,SKU-107,Kit plug progressivo,anale,"mi è arrivato già usato, la confezione era chiaramente stata aperta. Grazie in anticipo.",difetto_prodotto
+TCK-2341,2026-05-17,chat,SKU-108,Dildo in silicone Onda,dildo,"Salve, ho chiesto il reso del Dildo in silicone Onda venti giorni fa, il rimborso non è ancora arrivato. Grazie in anticipo.",reso_rimborso
+TCK-2342,2026-09-01,email,SKU-105,Anello fallico Orbit,per-lui,"Ciao, le istruzioni del Anello fallico Orbit sono solo in inglese e in cinese, in italiano niente. Grazie mille.",uso_prodotto
+TCK-2343,2026-07-22,email,SKU-104,Vibratore per coppie Duo App,coppie-app,"Buonasera, qual è il modo corretto di pulire il Vibratore per coppie Duo App? Posso usare acqua e sapone o serve un detergente apposta? Resto in attesa.",uso_prodotto
+TCK-2344,2026-05-14,chat,SKU-112,Body in pizzo Luce,lingerie,spedizione in ritardo di oltre una settimana rispetto a quanto indicato in fase di acquisto. Resto in attesa.,logistica_consegna
+TCK-2345,2026-09-08,email,SKU-111,Kit bondage Soft Start,bdsm,"Ciao, il corriere ha segnato consegnato ma non ho ricevuto nulla. Ho scritto e sto ancora aspettando. Grazie in anticipo.",logistica_consegna
+TCK-2346,2026-07-26,email,SKU-104,Vibratore per coppie Duo App,coppie-app,"Buonasera, l'app si disconnette in continuazione quando lo controllo a distanza. È normale?",uso_prodotto
+TCK-2347,2026-05-26,chat,SKU-104,Vibratore per coppie Duo App,coppie-app,"Buongiorno, procedura di reso poco chiara, sul sito non si capisce cosa si può restituire e cosa no.",reso_rimborso
+TCK-2348,2026-05-08,whatsapp,SKU-102,Vibratore Rabbit Nova,vibratori,"Buonasera, non capisco a cosa servano le diverse modalità del Vibratore Rabbit Nova, sul libretto non è spiegato.",uso_prodotto
+TCK-2349,2026-07-28,email,SKU-112,Body in pizzo Luce,lingerie,"Buongiorno, che taglia prendo del Body in pizzo Luce? Le misure sulla scheda non corrispondono a quelle italiane. Potete aiutarmi?",scelta_preacquisto
+TCK-2350,2026-09-08,whatsapp,SKU-104,Vibratore per coppie Duo App,coppie-app,"il codice sconto non si applica al carrello, ho provato con tre browser diversi.",promo_ordini
+TCK-2351,2026-05-17,email,SKU-107,Kit plug progressivo,anale,"Buonasera, sarebbe utile indicare quanti decibel fa il Kit plug progressivo, la rumorosità non è scritta da nessuna parte. Fatemi sapere per favore.",informazione_scheda
+TCK-2352,2026-05-31,whatsapp,SKU-105,Anello fallico Orbit,per-lui,"Ciao, come faccio a capire se il Anello fallico Orbit è completamente carico? La spia lampeggia e basta. Grazie mille.",uso_prodotto
+TCK-2353,2026-05-22,chat,SKU-104,Vibratore per coppie Duo App,coppie-app,la cinghia del Vibratore per coppie Duo App si è strappata la seconda volta che l'ho usato. Resto in attesa.,difetto_prodotto
+TCK-2354,2026-09-03,email,SKU-104,Vibratore per coppie Duo App,coppie-app,"Buongiorno, non riesco a collegare il Vibratore per coppie Duo App all'app, il bluetooth non lo trova.",uso_prodotto
+TCK-2355,2026-03-28,instagram,SKU-104,Vibratore per coppie Duo App,coppie-app,"Ciao, il Vibratore per coppie Duo App funziona anche senza app o serve per forza lo smartphone? Potete aiutarmi?",scelta_preacquisto
+TCK-2356,2026-08-20,instagram,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,"Buongiorno, cerco qualcosa da usare in coppia a distanza, quale mi consigliate? Potete aiutarmi?",scelta_preacquisto
+TCK-2357,2026-07-18,email,SKU-111,Kit bondage Soft Start,bdsm,"Buonasera, mi avevano promesso il rimborso via mail, da allora silenzio totale. Grazie mille.",reso_rimborso
+TCK-2358,2026-09-12,instagram,SKU-103,Wand massaggiante Vela,wand,"Ciao, sono indecisa tra due prodotti della stessa categoria, esiste una guida che li confronti? Grazie mille.",scelta_preacquisto
+TCK-2359,2026-05-02,whatsapp,SKU-112,Body in pizzo Luce,lingerie,"assistenza clienti davvero impeccabile, mi hanno risposto in mezza giornata e risolto tutto. Fatemi sapere per favore.",assistenza
+TCK-2360,2026-05-13,instagram,SKU-105,Anello fallico Orbit,per-lui,"Salve, ho ricevuto un prodotto diverso da quello ordinato e mi tocca pagare io la spedizione del reso. Fatemi sapere per favore.",reso_rimborso
+TCK-2361,2026-05-02,chat,SKU-109,Palline vaginali Kegel Set,palline,il Palline vaginali Kegel Set si può usare con un lubrificante al silicone o rovina il materiale?,uso_prodotto
+TCK-2362,2026-09-17,chat,SKU-109,Palline vaginali Kegel Set,palline,"mi avevano promesso il rimborso via mail, da allora silenzio totale. Potete aiutarmi?",reso_rimborso
+TCK-2363,2026-07-14,instagram,SKU-105,Anello fallico Orbit,per-lui,"Buongiorno, si può usare il Anello fallico Orbit sotto la doccia oppure no? Fatemi sapere per favore.",uso_prodotto
+TCK-2364,2026-05-15,chat,SKU-112,Body in pizzo Luce,lingerie,"tracking mai aggiornato, non ho idea di dove sia il mio ordine. Un po' di trasparenza in più non guasterebbe. Potete aiutarmi?",logistica_consegna
+TCK-2365,2026-05-22,instagram,SKU-104,Vibratore per coppie Duo App,coppie-app,"Ciao, il Vibratore per coppie Duo App funziona anche senza app o serve per forza lo smartphone?",scelta_preacquisto
+TCK-2366,2026-05-29,instagram,SKU-105,Anello fallico Orbit,per-lui,"Ciao, ho pagato la spedizione anche se avevo superato la soglia della spedizione gratuita. Grazie mille.",promo_ordini
+TCK-2367,2026-04-08,chat,SKU-104,Vibratore per coppie Duo App,coppie-app,"Buonasera, dopo tre settimane il Vibratore per coppie Duo App non si accende più, la base magnetica non aggancia bene.",difetto_batteria
+TCK-2368,2026-09-07,email,SKU-109,Palline vaginali Kegel Set,palline,"Ciao, reso rifiutato perché la confezione era aperta, ma come faccio a capire se il prodotto va bene senza aprirlo?",reso_rimborso
+TCK-2369,2026-04-04,email,SKU-109,Palline vaginali Kegel Set,palline,"Ciao, seconda volta che un vostro ordine arriva in ritardo. La prima l'ho lasciata correre.",logistica_consegna
+TCK-2370,2026-08-27,email,SKU-108,Dildo in silicone Onda,dildo,"Ciao, il corriere ha segnato consegnato ma non ho ricevuto nulla. Ho scritto e sto ancora aspettando.",logistica_consegna
+TCK-2371,2026-06-07,email,SKU-106,Masturbatore Echo,per-lui,il corriere ha segnato consegnato ma non ho ricevuto nulla. Ho scritto e sto ancora aspettando.,logistica_consegna
+TCK-2372,2026-06-24,whatsapp,SKU-112,Body in pizzo Luce,lingerie,"Ciao, sono indecisa tra due prodotti della stessa categoria, esiste una guida che li confronti? Grazie in anticipo.",scelta_preacquisto
+TCK-2373,2026-08-09,email,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,"Buongiorno, non riesco a scaricare la fattura dall'area personale. Potete aiutarmi?",promo_ordini
+TCK-2374,2026-08-23,email,SKU-109,Palline vaginali Kegel Set,palline,"Buongiorno, il Palline vaginali Kegel Set si può usare con un lubrificante al silicone o rovina il materiale?",uso_prodotto
+TCK-2375,2026-06-14,email,SKU-101,Succhia-clitoride Aurora,succhia-clitoride,volevo capire se il Succhia-clitoride Aurora è utile per la riabilitazione del pavimento pelvico o è solo per il piacere. Resto in attesa.,scelta_preacquisto
+TCK-2376,2026-07-02,chat,SKU-102,Vibratore Rabbit Nova,vibratori,"Ciao, il Vibratore Rabbit Nova si può usare con un lubrificante al silicone o rovina il materiale? Resto in attesa.",uso_prodotto
+TCK-2377,2026-09-17,email,SKU-104,Vibratore per coppie Duo App,coppie-app,ho ricevuto un prodotto diverso da quello ordinato e mi tocca pagare io la spedizione del reso.,reso_rimborso
+TCK-2378,2026-08-22,chat,SKU-104,Vibratore per coppie Duo App,coppie-app,"Buongiorno, l'app si disconnette in continuazione quando lo controllo a distanza. È normale?",uso_prodotto
+TCK-2379,2026-07-24,email,SKU-104,Vibratore per coppie Duo App,coppie-app,"Salve, il codice sconto non si applica al carrello, ho provato con tre browser diversi. Fatemi sapere per favore.",promo_ordini
