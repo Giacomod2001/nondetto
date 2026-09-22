@@ -366,7 +366,7 @@ with t5:
               unita, delta_color="off")
     c3.metric("Impatto economico",
               f"{(costo_t5['costo_care_euro'] + costo_t5['mancato_fatturato_euro']) * fattore:,.0f} €".replace(",", "."),
-              "assistenza + ordini a rischio", delta_color="off")
+              "tempo del care + ordini non chiusi", delta_color="off")
 
     st.markdown("")
     y = per_tema["etichetta"]
@@ -376,31 +376,57 @@ with t5:
 
     fig = go.Figure()
     fig.add_trace(go.Bar(
-        x=assist, y=y, orientation="h", name="Costo di assistenza",
+        x=assist, y=y, orientation="h", name="Tempo che ci mette il customer care",
         marker=dict(color=SERIE[0], line=dict(color="#ffffff", width=1)),
-        hovertemplate="%{y}<br>assistenza: %{x:,.0f} €<extra></extra>"))
+        hovertemplate="%{y}<br>tempo del care: %{x:,.0f} €<extra></extra>"))
     fig.add_trace(go.Bar(
-        x=ordini, y=y, orientation="h", name="Ordini a rischio",
+        x=ordini, y=y, orientation="h", name="Ordini che non si chiudono",
         marker=dict(color=SERIE[1], line=dict(color="#ffffff", width=1)),
         text=[f"{t:,.0f} €".replace(",", ".") for t in totali],
         textposition="outside", textfont=dict(color=INK_2, size=12),
         cliponaxis=False,
-        hovertemplate="%{y}<br>ordini a rischio: %{x:,.0f} €<extra></extra>"))
+        hovertemplate="%{y}<br>ordini non chiusi: %{x:,.0f} €<extra></extra>"))
+
+    # L'arancione compare su una barra sola, e senza una spiegazione sembra un
+    # errore. La spiegazione sta attaccata al segmento.
+    pre = per_tema[per_tema["intento"] == "scelta_preacquisto"]
+    if len(pre):
+        riga = pre.iloc[0]
+        centro = (riga["costo_assistenza"] + riga["ordini_a_rischio"] / 2) * fattore
+        fig.add_annotation(
+            x=centro, y=riga["etichetta"], yshift=46, showarrow=False,
+            text="l'unico tema in cui la domanda arriva <b>prima</b> dell'acquisto",
+            font=dict(color=INK_2, size=11), bgcolor="#ffffff",
+            bordercolor=SERIE[1], borderwidth=1, borderpad=5)
+
     fig.update_layout(barmode="stack",
-                      legend=dict(orientation="h", y=-0.22, x=0,
+                      legend=dict(orientation="h", y=-0.24, x=0,
+                                  traceorder="normal",
                                   font=dict(color=INK_2, size=11)))
     fig.update_xaxes(range=[0, max(totali.max() * 1.25, 1)], tickformat=",.0f",
                      ticksuffix=" €")
-    st.plotly_chart(
-        stile(fig, 320, f"Dove sta il costo, {unita}", legenda=True),
-        use_container_width=True)
+    fig_costo = stile(fig, 380, f"Quanto costa ogni tema, {unita}", legenda=True)
+    # spazio in alto per la nota attaccata al segmento arancione
+    fig_costo.update_layout(margin=dict(l=8, r=24, t=96, b=8))
+    st.plotly_chart(fig_costo, use_container_width=True)
 
     st.markdown(
-        "<p class='nota'>Guarda le due barre in alto. «Quale prodotto fa per me» "
-        "ha metà delle conversazioni di «Come si usa», ma pesa di più: perché "
-        "una domanda prima dell'acquisto non costa solo tempo di assistenza, "
-        "costa un ordine che non si chiude. È questo che decide da dove "
-        "cominciare, non il conteggio.</p>", unsafe_allow_html=True)
+        f"""<p class='nota'>
+        <span style="color:{SERIE[0]}; font-weight:700">■ Blu</span> — le ore che
+        il customer care passa a rispondere, convertite in euro con i due cursori
+        di sinistra.<br>
+        <span style="color:{SERIE[1]}; font-weight:700">■ Arancione</span> — gli
+        ordini che non si chiudono. Compare su un tema solo, e non è un errore:
+        chi chiede <i>come si usa</i> ha già comprato, chi chiede <i>quale prodotto
+        fa per me</i> no. La seconda domanda, se resta senza risposta, può
+        finire in un carrello abbandonato — la prima no.
+        </p>""", unsafe_allow_html=True)
+
+    st.markdown(
+        "<p class='nota'>Ed è per questo che la barra in alto è la più lunga pur "
+        "avendo <b>metà</b> delle conversazioni di quella sotto. Il conteggio da "
+        "solo ti avrebbe mandato a lavorare sul tema sbagliato.</p>",
+        unsafe_allow_html=True)
 
     if volume_reale > 0:
         st.markdown(
