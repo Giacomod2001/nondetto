@@ -387,6 +387,26 @@ def costo_del_non_detto(df, minuti_per_conversazione=9, costo_orario=22,
     }
 
 
+def costo_per_tema(df, minuti_per_conversazione=9, costo_orario=22,
+                   valore_ordine=52, tasso_conversione_perso=0.25):
+    """Scompone il costo del non detto per tema.
+
+    Serve a rispondere alla domanda "da dove comincio": due temi con lo stesso
+    numero di conversazioni possono pesare in modo molto diverso, perche' le
+    domande pre-acquisto non costano solo tempo, costano ordini.
+    """
+    ev = df[df["evitabile"]]
+    g = (ev.groupby(["intento", "etichetta"])
+         .agg(conversazioni=("id", "count")).reset_index())
+    g["costo_assistenza"] = g["conversazioni"] * minuti_per_conversazione / 60 * costo_orario
+    g["ordini_a_rischio"] = 0.0
+    pre = g["intento"] == "scelta_preacquisto"
+    g.loc[pre, "ordini_a_rischio"] = (
+        g.loc[pre, "conversazioni"] * tasso_conversione_perso * valore_ordine)
+    g["totale"] = g["costo_assistenza"] + g["ordini_a_rischio"]
+    return g.sort_values("totale")
+
+
 def backlog_contenuti(df: pd.DataFrame, top=15) -> pd.DataFrame:
     """Ogni domanda ricorrente = un pezzo di contenuto che manca.
     Output pensato per essere passato direttamente a chi scrive."""

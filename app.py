@@ -93,26 +93,16 @@ with st.sidebar:
         st.caption("Nessun file caricato: uso il dataset dimostrativo.")
 
     st.divider()
-    st.markdown("**Assunzioni del modello economico**")
-    st.caption("Sono ipotesi, non misure. Vanno sostituite con i dati veri.")
-    minuti = st.slider("Minuti medi per conversazione", 3, 25, 9)
-    costo_h = st.slider("Costo orario care (€)", 12, 40, 22)
-    aov = st.slider("Valore medio ordine (€)", 20, 120, 52)
-    perdita = st.slider("Quota di domande pre-acquisto che non si convertono",
-                        0.0, 0.6, 0.25, 0.05)
-
-    st.divider()
-    volume_reale = st.number_input(
-        "Conversazioni reali al mese (per la proiezione)",
-        min_value=0, max_value=100000, value=0, step=500,
-        help="Lascia 0 per vedere solo i numeri del campione.")
+    st.caption(
+        "Le assunzioni del modello economico si regolano dentro la scheda "
+        "«Il costo del non detto», accanto ai numeri che cambiano.")
 
 df = elabora(
     su_rec.getvalue() if su_rec else None,
     su_tck.getvalue() if su_tck else None,
 )
 qualita = pl.accuratezza(df)
-costo = pl.costo_del_non_detto(df, minuti, costo_h, aov, perdita)
+costo = pl.costo_del_non_detto(df)
 mesi = max(1, round((df["data"].max() - df["data"].min()).days / 30))
 
 # ---------------------------------------------------------------------------
@@ -174,43 +164,44 @@ with t1:
                         use_container_width=True)
 
     with col_b:
-        d = df[df["reparto"] != "—"].copy()
-        d["mese"] = d["data"].dt.to_period("M").dt.to_timestamp()
-        piv = d.pivot_table(index="mese", columns="reparto",
-                            values="id", aggfunc="count").fillna(0)
-        # il primo e l'ultimo mese sono quasi sempre parziali: tenerli
-        # disegnerebbe una salita e una caduta che nei dati non ci sono
-        if len(piv) > 3 and df["data"].min().day > 3:
-            piv = piv.iloc[1:]
-        fig2 = go.Figure()
-        for i, rep in enumerate(["Operations & Care", "Contenuti & Marketing",
-                                 "Prodotto & Acquisti"]):
-            if rep not in piv:
-                continue
-            fig2.add_trace(go.Scatter(
-                x=piv.index, y=piv[rep], name=rep, mode="lines+markers",
-                line=dict(color=SERIE[i], width=2),
-                marker=dict(size=8, color=SERIE[i],
-                            line=dict(color="#fcfcfb", width=2)),
-                hovertemplate="%{y} conversazioni<extra>" + rep + "</extra>",
-            ))
-        fig2.update_xaxes(
-            tickmode="array",
-            tickvals=list(piv.index),
-            ticktext=[MESI_IT[d.month - 1][:3] for d in piv.index])
-        fig2.update_layout(legend=dict(orientation="h", y=-0.2, x=0,
-                                       font=dict(color=INK_2, size=11)))
+        # Il rating e' l'unica colonna che dice se un tema fa danno o no.
+        # Un tema con tante conversazioni ma stelle alte non e' un problema;
+        # uno con poche conversazioni e una stella lo e'.
+        rec = df[(df["origine"] == "recensione") & (df["rating"].notna())]
+        r = (rec.groupby("etichetta")
+             .agg(rating=("rating", "mean"), n=("id", "count"))
+             .reset_index())
+        r = r[r["n"] >= 10].sort_values("rating", ascending=False)
+        media = rec["rating"].mean()
+
+        fig2 = go.Figure(go.Bar(
+            x=r["rating"], y=r["etichetta"], orientation="h",
+            marker=dict(color=SERIE[0], line=dict(width=0)),
+            text=[f"{v:.1f}" for v in r["rating"]], textposition="outside",
+            textfont=dict(color=INK_2, size=11), cliponaxis=False,
+            customdata=r["n"],
+            hovertemplate="%{y}<br>%{x:.2f} stelle su %{customdata} recensioni"
+                          "<extra></extra>",
+        ))
+        fig2.update_traces(marker_cornerradius=4)
+        fig2.add_vline(x=media, line=dict(color="#9A8D93", width=2, dash="dash"),
+                       annotation_text=f"media {media:.1f}",
+                       annotation_position="top",
+                       annotation_font=dict(color=INK_2, size=11))
+        fig2.update_xaxes(range=[1, 5.6], dtick=1)
         st.plotly_chart(
-            stile(fig2, 420, "Andamento mensile per reparto", legenda=True),
+            stile(fig2, 420, "Quali temi tirano giù le stelle"),
             use_container_width=True)
 
     st.markdown(
-        f"<p class='nota'>Periodo coperto: {mese_it(df['data'].min())} – "
-        f"{mese_it(df['data'].max())} (≈{mesi} mesi). "
-        f"{len(df[df.origine=='recensione'])} recensioni e "
-        f"{len(df[df.origine=='ticket'])} ticket, letti insieme: "
-        "è la stessa persona che prima scrive all'assistenza e poi lascia "
-        "una stella, ma di solito i due testi li legge gente diversa.</p>",
+        f"<p class='nota'>{len(df[df.origine=='recensione'])} recensioni e "
+        f"{len(df[df.origine=='ticket'])} ticket da {mese_it(df['data'].min())} "
+        f"a {mese_it(df['data'].max())}, letti insieme: è la stessa persona che "
+        "prima scrive all'assistenza e poi lascia una stella, ma di solito i due "
+        "testi li legge gente diversa. &nbsp;·&nbsp; I due grafici vanno letti "
+        "in coppia: a sinistra <b>quanto</b> se ne parla, a destra <b>quanto fa "
+        "male</b>. Un tema in alto a sinistra e in basso a destra è quello da "
+        "cui partire.</p>",
         unsafe_allow_html=True)
 
 # ---------------------------------------------------------------------------
@@ -345,35 +336,78 @@ with t5:
         "Quella parte si può misurare, e si può ridurre scrivendo, non "
         "assumendo.</p>", unsafe_allow_html=True)
 
-    c1, c2, c3 = st.columns(3)
-    c1.metric("Conversazioni evitabili", costo["conversazioni_evitabili"],
-              f"{costo['quota_sul_totale']:.0%} del totale", delta_color="off")
-    c2.metric("Ore di assistenza", f"{costo['ore_care']:.0f} h",
-              f"≈ {costo['costo_care_euro']} € sul campione", delta_color="off")
-    c3.metric("Domande pre-acquisto", costo["domande_preacquisto"],
-              f"≈ {costo['mancato_fatturato_euro']} € di ordini a rischio",
-              delta_color="off")
+    st.markdown("")
+    st.markdown("**Le assunzioni.** Non sono misure: muovile e guarda cosa cambia.")
+    a1, a2, a3, a4, a5 = st.columns(5)
+    minuti = a1.slider("Minuti per conversazione", 3, 25, 9)
+    costo_h = a2.slider("Costo orario care (€)", 12, 40, 22)
+    aov = a3.slider("Valore medio ordine (€)", 20, 120, 52)
+    perdita = a4.slider("Pre-acquisto che non converte", 0.0, 0.6, 0.25, 0.05)
+    volume_reale = a5.number_input("Conversazioni reali/mese", 0, 100000, 0, 500,
+                                   help="0 = mostra solo i numeri del campione")
+
+    costo_t5 = pl.costo_del_non_detto(df, minuti, costo_h, aov, perdita)
+    per_tema = pl.costo_per_tema(df, minuti, costo_h, aov, perdita)
+
+    # se conosco il volume vero, porto tutto a base annua
+    if volume_reale > 0:
+        fattore = volume_reale * 12 / (len(df) / mesi * 12)
+        unita = "all'anno, sul volume che hai indicato"
+    else:
+        fattore = 1.0
+        unita = f"sul campione di {len(df)} conversazioni (≈{mesi} mesi)"
 
     st.markdown("---")
+    c1, c2, c3 = st.columns(3)
+    c1.metric("Conversazioni evitabili", costo_t5["conversazioni_evitabili"],
+              f"{costo_t5['quota_sul_totale']:.0%} del totale", delta_color="off")
+    c2.metric("Ore di assistenza",
+              f"{costo_t5['ore_care'] * fattore:,.0f} h".replace(",", "."),
+              unita, delta_color="off")
+    c3.metric("Impatto economico",
+              f"{(costo_t5['costo_care_euro'] + costo_t5['mancato_fatturato_euro']) * fattore:,.0f} €".replace(",", "."),
+              "assistenza + ordini a rischio", delta_color="off")
+
+    st.markdown("")
+    y = per_tema["etichetta"]
+    assist = per_tema["costo_assistenza"] * fattore
+    ordini = per_tema["ordini_a_rischio"] * fattore
+    totali = assist + ordini
+
+    fig = go.Figure()
+    fig.add_trace(go.Bar(
+        x=assist, y=y, orientation="h", name="Costo di assistenza",
+        marker=dict(color=SERIE[0], line=dict(color="#ffffff", width=1)),
+        hovertemplate="%{y}<br>assistenza: %{x:,.0f} €<extra></extra>"))
+    fig.add_trace(go.Bar(
+        x=ordini, y=y, orientation="h", name="Ordini a rischio",
+        marker=dict(color=SERIE[1], line=dict(color="#ffffff", width=1)),
+        text=[f"{t:,.0f} €".replace(",", ".") for t in totali],
+        textposition="outside", textfont=dict(color=INK_2, size=12),
+        cliponaxis=False,
+        hovertemplate="%{y}<br>ordini a rischio: %{x:,.0f} €<extra></extra>"))
+    fig.update_layout(barmode="stack",
+                      legend=dict(orientation="h", y=-0.22, x=0,
+                                  font=dict(color=INK_2, size=11)))
+    fig.update_xaxes(range=[0, max(totali.max() * 1.25, 1)], tickformat=",.0f",
+                     ticksuffix=" €")
+    st.plotly_chart(
+        stile(fig, 320, f"Dove sta il costo, {unita}", legenda=True),
+        use_container_width=True)
+
+    st.markdown(
+        "<p class='nota'>Guarda le due barre in alto. «Quale prodotto fa per me» "
+        "ha metà delle conversazioni di «Come si usa», ma pesa di più: perché "
+        "una domanda prima dell'acquisto non costa solo tempo di assistenza, "
+        "costa un ordine che non si chiude. È questo che decide da dove "
+        "cominciare, non il conteggio.</p>", unsafe_allow_html=True)
+
     if volume_reale > 0:
-        fattore = volume_reale * 12 / max(1, len(df) / mesi * 12)
-        st.markdown("**Proiezione sul volume reale che hai indicato**")
-        p1, p2, p3 = st.columns(3)
-        ore_anno = costo["ore_care"] / mesi * 12 * fattore
-        eur_anno = costo["costo_care_euro"] / mesi * 12 * fattore
-        ord_anno = costo["mancato_fatturato_euro"] / mesi * 12 * fattore
-        p1.metric("Ore all'anno", f"{ore_anno:,.0f} h".replace(",", "."))
-        p2.metric("Costo assistenza/anno", f"{eur_anno:,.0f} €".replace(",", "."))
-        p3.metric("Ordini a rischio/anno", f"{ord_anno:,.0f} €".replace(",", "."))
         st.markdown(
             "<p class='nota'>La proiezione moltiplica il tasso osservato sul "
             "campione per il volume che hai indicato. Vale quanto vale "
             "l'assunzione: serve a dare un ordine di grandezza, non una cifra "
             "da mettere a budget.</p>", unsafe_allow_html=True)
-    else:
-        st.info(
-            "Imposta «Conversazioni reali al mese» nella barra laterale per "
-            "vedere cosa significa questo tasso sul volume vero.")
 
     st.markdown("---")
     st.markdown("**Da dove si comincia**")
